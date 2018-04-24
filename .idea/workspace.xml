@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04545652-b2ba-4e78-9715-8f9b0c491109" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/broken-hashserve_darwin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/broken-hashserve_linux" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/broken-hashserve_win.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox/test_running_hashing_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/test-hash-app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test-hash-app.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_running_hashing_app.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_running_hashing_app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sandbox/test_running_hashing_app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="254">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#93#103#0" expanded="true" />
               </folding>
@@ -46,9 +40,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-hash-app.log" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test-hash-app.log" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/logs/test-hash-app.log">
-          <provider selected="true" editor-type-id="LogFileEditorProvider" />
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state>
+              <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_logger.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/test_logger.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -70,6 +77,7 @@
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/lib/testlogging.py" />
         <option value="$PROJECT_DIR$/sandbox/test_running_hashing_app.py" />
+        <option value="$PROJECT_DIR$/logs/test-hash-app.log" />
       </list>
     </option>
   </component>
@@ -83,8 +91,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1563" />
-    <option name="y" value="65" />
+    <option name="x" value="1543" />
+    <option name="y" value="40" />
     <option name="width" value="1692" />
     <option name="height" value="905" />
   </component>
@@ -191,7 +199,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1570" y="42" width="1692" height="905" extended-state="0" />
+    <frame x="1543" y="40" width="1692" height="905" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -199,9 +207,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972324" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20685579" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32920793" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.41955444" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21212122" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -264,23 +272,27 @@
     <entry file="file://$PROJECT_DIR$/lib/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/sandbox/test_running_hashing_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#93#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/test_logger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        <state relative-caret-position="75">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/test-hash-app.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox/test_running_hashing_app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding>
-            <element signature="e#93#103#0" expanded="true" />
-          </folding>
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state>
+          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
