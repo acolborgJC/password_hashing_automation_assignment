@@ -1,0 +1,5 @@
+{
+  "automation_tests/test_password_hashing_app.py::test_get_password_hash_call": true,
+  "automation_tests/test_password_hashing_app.py::test_multiple_post_password_hash_calls": true,
+  "automation_tests/test_password_hashing_app.py::test_post_password_hash_call": true
+}

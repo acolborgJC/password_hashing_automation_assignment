@@ -30,7 +30,6 @@ def get_logger(filename, level, stdout=False):
     file_handler = logging.handlers.RotatingFileHandler(filename, maxBytes=10485760, backupCount=5)
     file_handler.setFormatter(formatter)
     logging.getLogger('').addHandler(file_handler)
-    
     logging.getLogger('').setLevel(level)
 
 

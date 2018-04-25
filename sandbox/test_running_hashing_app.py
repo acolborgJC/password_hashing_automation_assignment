@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-Created on April 17th 20th, 2018
+Created on April 20th, 2018
 @author: andres.fernandez
 
 """
@@ -13,11 +13,11 @@ import time
 import logging
 
 script_dir = os.path.dirname(__file__)
-sys.path.append(os.path.join(script_dir, "//..//lib"))
+sys.path.append(os.path.join(script_dir, "../lib"))
 
-import test_logger
+import testlogging
 
-logger = test_logger.get_logger(script_dir + '../logs/test-hash-app.log', logging.INFO, True)
+logger = testlogging.get_logger(script_dir + '/../logs/test-hash-app.log', logging.INFO, True)
 
 logging.info("Platform: " + sys.platform)
 
