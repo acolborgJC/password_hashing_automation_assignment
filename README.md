@@ -17,8 +17,6 @@ PyCharm 2018.1 was used to develop the automation suite
 
 Automation was tested on macOS High Sierra
 
-It was also tested on Windows 10
-
 ## How to run the tests
 
 You can run the tests a few different ways
