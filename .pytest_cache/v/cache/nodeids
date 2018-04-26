@@ -1,5 +1,6 @@
 [
   "automation_tests/test_get_password_base64_encoded_request.py::test_get_password_hash_call",
+  "automation_tests/test_get_stats_request.py::test_get_stats_no_data",
   "automation_tests/test_post_password_hashing_request.py::test_concurrent_post_password_hash_calls",
   "automation_tests/test_post_password_hashing_request.py::test_parameterized_post_password_hash_calls[password--400]",
   "automation_tests/test_post_password_hashing_request.py::test_parameterized_post_password_hash_calls[password-a-200]",

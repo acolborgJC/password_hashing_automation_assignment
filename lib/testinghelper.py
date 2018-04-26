@@ -6,12 +6,17 @@ Created on April 22nd, 2018
 
 """
 
+import os
 import json
 import requests
 import logging
+import yaml
 
-PORT = "8088"
+script_dir = os.path.dirname(__file__)
 
+import setup_teardown_helper
+
+PORT = setup_teardown_helper.get_property_value("port")
 
 def post_request_hash_helper(json_parameter, expected_code):
     json_payload = json.dumps(json_parameter)
@@ -40,11 +45,11 @@ def get_request_hash_helper(hash_parameter, expected_code):
     return r.text
 
 
-def get_request_stats_helper():
+def get_request_stats_helper(expected_code):
     url = 'http://localhost:' + PORT + '/stats'
     logging.info("GET URL stats call: " + url)
     r = requests.get(url)
-    assert (r.status_code == 200)
+    assert (r.status_code == expected_code)
     logging.info("GET JSON stats response :" + r.text)
     assert ("TotalRequests" in r.text)
     assert ("AverageTime" in r.text)

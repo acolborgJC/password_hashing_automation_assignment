@@ -1,2 +1,4 @@
 #test params for SHA-512/base64 encoding API tests
 
+port: 8088
+logfile: /../logs/test-hash-app.log

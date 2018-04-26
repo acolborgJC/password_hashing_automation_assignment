@@ -888,3 +888,252 @@
 2018-04-25 22:46:03,743 INFO     - ** Exiting teardown_function method **
 2018-04-25 22:46:03,743 INFO     - * Running teardown_module method *
 2018-04-25 22:46:03,743 INFO     - * Exiting teardown_module method *
+2018-04-26 00:19:17,531 INFO     - Platform: darwin
+2018-04-26 00:19:17,532 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-26 00:19:17,532 INFO     - ** Running setup_function method **
+2018-04-26 00:19:17,532 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 00:19:17,532 INFO     - Got exception trying to shutdown
+2018-04-26 00:19:17,532 INFO     - Running application
+2018-04-26 00:19:17,536 INFO     - ** Exiting setup_function method **
+2018-04-26 00:19:17,538 INFO     - *** Starting sequential test calls ***
+2018-04-26 00:19:17,613 INFO     - ** Running teardown_function method **
+2018-04-26 00:19:17,614 INFO     - ** Exiting teardown_function method **
+2018-04-26 00:19:17,614 INFO     - * Running teardown_module method *
+2018-04-26 00:19:17,614 INFO     - * Exiting teardown_module method *
+2018-04-26 00:20:12,811 INFO     - Platform: darwin
+2018-04-26 00:20:12,820 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-26 00:20:12,820 INFO     - ** Running setup_function method **
+2018-04-26 00:20:12,820 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 00:20:12,821 INFO     - Opening yaml file
+2018-04-26 00:20:12,821 INFO     - Couldn't load YAML file: /../properties/test_params.yaml
+2018-04-26 00:20:12,821 INFO     - Got exception trying to shutdown
+2018-04-26 00:20:12,821 INFO     - Running application
+2018-04-26 00:20:12,824 INFO     - ** Exiting setup_function method **
+2018-04-26 00:20:12,826 INFO     - *** Starting sequential test calls ***
+2018-04-26 00:20:12,826 INFO     - Opening yaml file
+2018-04-26 00:20:12,826 INFO     - Couldn't load YAML file: /../properties/test_params.yaml
+2018-04-26 00:20:12,900 INFO     - ** Running teardown_function method **
+2018-04-26 00:20:12,900 INFO     - ** Exiting teardown_function method **
+2018-04-26 00:20:12,901 INFO     - * Running teardown_module method *
+2018-04-26 00:20:12,901 INFO     - * Exiting teardown_module method *
+2018-04-26 00:23:12,921 INFO     - Platform: darwin
+2018-04-26 00:23:12,921 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-26 00:23:12,922 INFO     - ** Running setup_function method **
+2018-04-26 00:23:12,922 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 00:23:12,922 INFO     - Opening yaml file
+2018-04-26 00:23:12,922 INFO     - Couldn't load YAML file: /../properties/test_params.yaml
+2018-04-26 00:23:12,922 INFO     - Got exception trying to shutdown
+2018-04-26 00:23:12,922 INFO     - Running application
+2018-04-26 00:23:12,926 INFO     - ** Exiting setup_function method **
+2018-04-26 00:23:12,928 INFO     - *** Starting sequential test calls ***
+2018-04-26 00:23:12,928 INFO     - Opening yaml file
+2018-04-26 00:23:12,929 INFO     - Couldn't load YAML file: /../properties/test_params.yaml
+2018-04-26 00:23:13,008 INFO     - ** Running teardown_function method **
+2018-04-26 00:23:13,008 INFO     - ** Exiting teardown_function method **
+2018-04-26 00:23:13,008 INFO     - * Running teardown_module method *
+2018-04-26 00:23:13,009 INFO     - * Exiting teardown_module method *
+2018-04-26 00:25:06,441 INFO     - Platform: darwin
+2018-04-26 00:25:06,441 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-26 00:25:06,441 INFO     - ** Running setup_function method **
+2018-04-26 00:25:06,441 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 00:25:06,441 INFO     - Opening yaml file
+2018-04-26 00:25:06,443 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-26 00:25:06,473 INFO     - Got exception trying to shutdown
+2018-04-26 00:25:06,473 INFO     - Running application
+2018-04-26 00:25:06,477 INFO     - ** Exiting setup_function method **
+2018-04-26 00:25:06,479 INFO     - *** Starting sequential test calls ***
+2018-04-26 00:25:06,480 INFO     - Opening yaml file
+2018-04-26 00:25:06,482 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password0'}
+2018-04-26 00:25:11,498 INFO     - Status Code from POST REST call: 200
+2018-04-26 00:25:11,499 INFO     - POST REST int response: 1
+2018-04-26 00:25:11,499 INFO     - POST REST Request elapsed time: 5
+2018-04-26 00:25:11,499 INFO     - POST REST Request elapsed time (microseconds): 13891
+2018-04-26 00:25:11,499 INFO     - Opening yaml file
+2018-04-26 00:25:11,500 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password1'}
+2018-04-26 00:25:16,507 INFO     - Status Code from POST REST call: 200
+2018-04-26 00:25:16,507 INFO     - POST REST int response: 2
+2018-04-26 00:25:16,507 INFO     - POST REST Request elapsed time: 5
+2018-04-26 00:25:16,507 INFO     - POST REST Request elapsed time (microseconds): 4329
+2018-04-26 00:25:16,508 INFO     - Opening yaml file
+2018-04-26 00:25:16,509 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password2'}
+2018-04-26 00:25:21,522 INFO     - Status Code from POST REST call: 200
+2018-04-26 00:25:21,522 INFO     - POST REST int response: 3
+2018-04-26 00:25:21,523 INFO     - POST REST Request elapsed time: 5
+2018-04-26 00:25:21,523 INFO     - POST REST Request elapsed time (microseconds): 10733
+2018-04-26 00:25:21,523 INFO     - Opening yaml file
+2018-04-26 00:25:21,524 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password3'}
+2018-04-26 00:25:26,534 INFO     - Status Code from POST REST call: 200
+2018-04-26 00:25:26,535 INFO     - POST REST int response: 4
+2018-04-26 00:25:26,535 INFO     - POST REST Request elapsed time: 5
+2018-04-26 00:25:26,535 INFO     - POST REST Request elapsed time (microseconds): 7156
+2018-04-26 00:25:26,535 INFO     - Opening yaml file
+2018-04-26 00:25:26,536 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password4'}
+2018-04-26 00:25:31,547 INFO     - Status Code from POST REST call: 200
+2018-04-26 00:25:31,548 INFO     - POST REST int response: 5
+2018-04-26 00:25:31,548 INFO     - POST REST Request elapsed time: 5
+2018-04-26 00:25:31,548 INFO     - POST REST Request elapsed time (microseconds): 9329
+2018-04-26 00:25:31,548 INFO     - Opening yaml file
+2018-04-26 00:25:31,549 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 00:25:31,559 INFO     - GET JSON stats response :{"TotalRequests":5,"AverageTime":471663}
+2018-04-26 00:25:31,559 INFO     - GET JSON stats response :{"TotalRequests":5,"AverageTime":471663}
+2018-04-26 00:25:31,559 INFO     - *** Finished sequential test calls ***
+2018-04-26 00:25:31,560 INFO     - ** Running teardown_function method **
+2018-04-26 00:25:31,560 INFO     - ** Exiting teardown_function method **
+2018-04-26 00:25:31,560 INFO     - * Running teardown_module method *
+2018-04-26 00:25:31,561 INFO     - * Exiting teardown_module method *
+2018-04-26 00:28:53,183 INFO     - Platform: darwin
+2018-04-26 00:28:53,183 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-26 00:28:53,183 INFO     - ** Running setup_function method **
+2018-04-26 00:28:53,183 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 00:28:53,183 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-26 00:28:53,197 INFO     - Got exception trying to shutdown
+2018-04-26 00:28:53,198 INFO     - Running application
+2018-04-26 00:28:53,201 INFO     - ** Exiting setup_function method **
+2018-04-26 00:28:53,203 INFO     - *** Starting sequential test calls ***
+2018-04-26 00:28:53,203 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password0'}
+2018-04-26 00:28:58,216 INFO     - Status Code from POST REST call: 200
+2018-04-26 00:28:58,216 INFO     - POST REST int response: 1
+2018-04-26 00:28:58,217 INFO     - POST REST Request elapsed time: 5
+2018-04-26 00:28:58,217 INFO     - POST REST Request elapsed time (microseconds): 9668
+2018-04-26 00:28:58,218 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password1'}
+2018-04-26 00:29:03,226 INFO     - Status Code from POST REST call: 200
+2018-04-26 00:29:03,226 INFO     - POST REST int response: 2
+2018-04-26 00:29:03,226 INFO     - POST REST Request elapsed time: 5
+2018-04-26 00:29:03,227 INFO     - POST REST Request elapsed time (microseconds): 4559
+2018-04-26 00:29:03,227 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password2'}
+2018-04-26 00:29:08,238 INFO     - Status Code from POST REST call: 200
+2018-04-26 00:29:08,238 INFO     - POST REST int response: 3
+2018-04-26 00:29:08,238 INFO     - POST REST Request elapsed time: 5
+2018-04-26 00:29:08,238 INFO     - POST REST Request elapsed time (microseconds): 8746
+2018-04-26 00:29:08,239 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password3'}
+2018-04-26 00:29:13,247 INFO     - Status Code from POST REST call: 200
+2018-04-26 00:29:13,247 INFO     - POST REST int response: 4
+2018-04-26 00:29:13,247 INFO     - POST REST Request elapsed time: 5
+2018-04-26 00:29:13,247 INFO     - POST REST Request elapsed time (microseconds): 5672
+2018-04-26 00:29:13,248 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password4'}
+2018-04-26 00:29:18,258 INFO     - Status Code from POST REST call: 200
+2018-04-26 00:29:18,259 INFO     - POST REST int response: 5
+2018-04-26 00:29:18,259 INFO     - POST REST Request elapsed time: 5
+2018-04-26 00:29:18,259 INFO     - POST REST Request elapsed time (microseconds): 8053
+2018-04-26 00:29:18,259 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 00:29:18,267 INFO     - GET JSON stats response :{"TotalRequests":5,"AverageTime":131520}
+2018-04-26 00:29:18,267 INFO     - GET JSON stats response :{"TotalRequests":5,"AverageTime":131520}
+2018-04-26 00:29:18,267 INFO     - *** Finished sequential test calls ***
+2018-04-26 00:29:18,269 INFO     - ** Running teardown_function method **
+2018-04-26 00:29:18,269 INFO     - ** Exiting teardown_function method **
+2018-04-26 00:29:18,269 INFO     - * Running teardown_module method *
+2018-04-26 00:29:18,269 INFO     - * Exiting teardown_module method *
+2018-04-26 00:39:07,497 INFO     - Platform: darwin
+2018-04-26 00:39:07,498 INFO     - * Exiting setup_module method intest_post_password... *
+2018-04-26 00:39:07,498 INFO     - ** Running setup_function method **
+2018-04-26 00:39:07,498 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 00:39:07,499 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-26 00:39:07,515 INFO     - Got exception trying to shutdown
+2018-04-26 00:39:07,516 INFO     - Running application
+2018-04-26 00:39:07,519 INFO     - ** Exiting setup_function method **
+2018-04-26 00:39:07,521 INFO     - *** Starting sequential test calls ***
+2018-04-26 00:39:07,521 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password0'}
+2018-04-26 00:39:07,826 INFO     - ** Running teardown_function method **
+2018-04-26 00:39:07,826 INFO     - ** Exiting teardown_function method **
+2018-04-26 00:39:07,827 INFO     - * Running teardown_module method *
+2018-04-26 00:39:07,827 INFO     - * Exiting teardown_module method *
+2018-04-26 00:39:19,600 INFO     - Platform: darwin
+2018-04-26 00:39:19,601 INFO     - * Exiting setup_module method intest_post_password... *
+2018-04-26 00:39:19,601 INFO     - ** Running setup_function method **
+2018-04-26 00:39:19,601 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 00:39:19,601 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-26 00:39:19,614 INFO     - Got exception trying to shutdown
+2018-04-26 00:39:19,615 INFO     - Running application
+2018-04-26 00:39:19,618 INFO     - ** Exiting setup_function method **
+2018-04-26 00:39:19,620 INFO     - *** Starting sequential test calls ***
+2018-04-26 00:39:19,620 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password0'}
+2018-04-26 00:39:24,638 INFO     - Status Code from POST REST call: 200
+2018-04-26 00:39:24,638 INFO     - POST REST int response: 1
+2018-04-26 00:39:24,638 INFO     - POST REST Request elapsed time: 5
+2018-04-26 00:39:24,639 INFO     - POST REST Request elapsed time (microseconds): 14410
+2018-04-26 00:39:24,639 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password1'}
+2018-04-26 00:39:29,648 INFO     - Status Code from POST REST call: 200
+2018-04-26 00:39:29,648 INFO     - POST REST int response: 2
+2018-04-26 00:39:29,648 INFO     - POST REST Request elapsed time: 5
+2018-04-26 00:39:29,649 INFO     - POST REST Request elapsed time (microseconds): 6133
+2018-04-26 00:39:29,649 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password2'}
+2018-04-26 00:39:34,660 INFO     - Status Code from POST REST call: 200
+2018-04-26 00:39:34,661 INFO     - POST REST int response: 3
+2018-04-26 00:39:34,661 INFO     - POST REST Request elapsed time: 5
+2018-04-26 00:39:34,661 INFO     - POST REST Request elapsed time (microseconds): 8782
+2018-04-26 00:39:34,661 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password3'}
+2018-04-26 00:39:39,669 INFO     - Status Code from POST REST call: 200
+2018-04-26 00:39:39,670 INFO     - POST REST int response: 4
+2018-04-26 00:39:39,670 INFO     - POST REST Request elapsed time: 5
+2018-04-26 00:39:39,670 INFO     - POST REST Request elapsed time (microseconds): 5630
+2018-04-26 00:39:39,670 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password4'}
+2018-04-26 00:39:44,682 INFO     - Status Code from POST REST call: 200
+2018-04-26 00:39:44,682 INFO     - POST REST int response: 5
+2018-04-26 00:39:44,682 INFO     - POST REST Request elapsed time: 5
+2018-04-26 00:39:44,682 INFO     - POST REST Request elapsed time (microseconds): 8875
+2018-04-26 00:39:44,683 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 00:39:44,691 INFO     - GET JSON stats response :{"TotalRequests":5,"AverageTime":669228}
+2018-04-26 00:39:44,691 INFO     - GET JSON stats response :{"TotalRequests":5,"AverageTime":669228}
+2018-04-26 00:39:44,692 INFO     - *** Finished sequential test calls ***
+2018-04-26 00:39:44,692 INFO     - ** Running teardown_function method **
+2018-04-26 00:39:44,693 INFO     - ** Exiting teardown_function method **
+2018-04-26 00:39:44,693 INFO     - * Running teardown_module method *
+2018-04-26 00:39:44,693 INFO     - * Exiting teardown_module method *
+2018-04-26 00:54:01,615 INFO     - Platform: darwin
+2018-04-26 00:54:01,616 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-26 00:54:01,616 INFO     - ** Running setup_function method **
+2018-04-26 00:54:01,616 INFO     - Opening yaml file
+2018-04-26 00:54:01,618 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 00:54:01,618 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-26 00:54:01,638 INFO     - Got exception trying to shutdown
+2018-04-26 00:54:01,638 INFO     - Running application
+2018-04-26 00:54:01,642 INFO     - ** Exiting setup_function method **
+2018-04-26 00:54:01,644 INFO     - *** Starting sequential test calls ***
+2018-04-26 00:54:01,644 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password0'}
+2018-04-26 00:54:01,925 INFO     - ** Running teardown_function method **
+2018-04-26 00:54:01,925 INFO     - ** Exiting teardown_function method **
+2018-04-26 00:54:01,926 INFO     - * Running teardown_module method in test_post_password... *
+2018-04-26 00:54:01,926 INFO     - * Exiting teardown_module method in test_post_password... *
+2018-04-26 00:54:15,363 INFO     - Platform: darwin
+2018-04-26 00:54:15,363 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-26 00:54:15,363 INFO     - ** Running setup_function method **
+2018-04-26 00:54:15,364 INFO     - Opening yaml file
+2018-04-26 00:54:15,365 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 00:54:15,365 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-26 00:54:15,380 INFO     - Got exception trying to shutdown
+2018-04-26 00:54:15,380 INFO     - Running application
+2018-04-26 00:54:15,384 INFO     - ** Exiting setup_function method **
+2018-04-26 00:54:15,386 INFO     - *** Starting sequential test calls ***
+2018-04-26 00:54:15,386 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password0'}
+2018-04-26 00:54:20,411 INFO     - Status Code from POST REST call: 200
+2018-04-26 00:54:20,411 INFO     - POST REST int response: 1
+2018-04-26 00:54:20,411 INFO     - POST REST Request elapsed time: 5
+2018-04-26 00:54:20,412 INFO     - POST REST Request elapsed time (microseconds): 21774
+2018-04-26 00:54:20,412 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password1'}
+2018-04-26 00:54:25,420 INFO     - Status Code from POST REST call: 200
+2018-04-26 00:54:25,421 INFO     - POST REST int response: 2
+2018-04-26 00:54:25,421 INFO     - POST REST Request elapsed time: 5
+2018-04-26 00:54:25,421 INFO     - POST REST Request elapsed time (microseconds): 5994
+2018-04-26 00:54:25,422 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password2'}
+2018-04-26 00:54:30,433 INFO     - Status Code from POST REST call: 200
+2018-04-26 00:54:30,434 INFO     - POST REST int response: 3
+2018-04-26 00:54:30,434 INFO     - POST REST Request elapsed time: 5
+2018-04-26 00:54:30,435 INFO     - POST REST Request elapsed time (microseconds): 8783
+2018-04-26 00:54:30,435 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password3'}
+2018-04-26 00:54:35,444 INFO     - Status Code from POST REST call: 200
+2018-04-26 00:54:35,444 INFO     - POST REST int response: 4
+2018-04-26 00:54:35,444 INFO     - POST REST Request elapsed time: 5
+2018-04-26 00:54:35,445 INFO     - POST REST Request elapsed time (microseconds): 6019
+2018-04-26 00:54:35,445 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password4'}
+2018-04-26 00:54:40,453 INFO     - Status Code from POST REST call: 200
+2018-04-26 00:54:40,454 INFO     - POST REST int response: 5
+2018-04-26 00:54:40,454 INFO     - POST REST Request elapsed time: 5
+2018-04-26 00:54:40,454 INFO     - POST REST Request elapsed time (microseconds): 5328
+2018-04-26 00:54:40,454 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 00:54:40,467 INFO     - GET JSON stats response :{"TotalRequests":5,"AverageTime":1021631}
+2018-04-26 00:54:40,467 INFO     - GET JSON stats response :{"TotalRequests":5,"AverageTime":1021631}
+2018-04-26 00:54:40,467 INFO     - *** Finished sequential test calls ***
+2018-04-26 00:54:40,468 INFO     - ** Running teardown_function method **
+2018-04-26 00:54:40,469 INFO     - ** Exiting teardown_function method **
+2018-04-26 00:54:40,469 INFO     - * Running teardown_module method in test_post_password... *
+2018-04-26 00:54:40,469 INFO     - * Exiting teardown_module method in test_post_password... *
