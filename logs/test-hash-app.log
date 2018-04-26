@@ -4737,3 +4737,1227 @@
 2018-04-26 15:13:11,826 INFO     - ** Exiting teardown_function method **
 2018-04-26 15:13:11,826 INFO     - * Running teardown_module method in test_post_password... *
 2018-04-26 15:13:11,826 INFO     - * Exiting teardown_module method in test_post_password... *
+2018-04-26 15:22:29,388 INFO     - Platform: darwin
+2018-04-26 15:22:29,389 INFO     - * Exiting setup_module method in test_get_password_base64_encoded... *
+2018-04-26 15:22:29,389 INFO     - ** Running setup_function method **
+2018-04-26 15:22:29,390 INFO     - Opening yaml file
+2018-04-26 15:22:29,390 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:22:29,391 INFO     - Running application
+2018-04-26 15:22:29,395 INFO     - Launching application success
+2018-04-26 15:22:29,397 INFO     - ** Exiting setup_function method **
+2018-04-26 15:22:29,398 INFO     - *** Starting get base64 encoded hash call with invalid number ***
+2018-04-26 15:22:29,399 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'testpassword@1234'}
+2018-04-26 15:22:34,438 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'testpassword@1234'}
+2018-04-26 15:22:34,438 INFO     - POST REST int response: 1
+2018-04-26 15:22:34,438 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:34,439 INFO     - POST REST Request elapsed time (microseconds): 13308
+2018-04-26 15:22:34,439 INFO     - POST REST response code: 200
+2018-04-26 15:22:34,439 INFO     - GET REST base64 call and hash integer parameter: http://localhost:8088/hash/99, 99
+2018-04-26 15:22:34,445 INFO     - Status Code from GET base64 call: 400
+2018-04-26 15:22:34,445 INFO     - GET REST base64 response: Hash not found
+
+2018-04-26 15:22:34,445 INFO     - GET REST base64 total elapsed time (seconds): 0
+2018-04-26 15:22:34,445 INFO     - GET REST base64 total elapsed time (microseconds): 3524
+2018-04-26 15:22:34,445 INFO     - *** Finished get base64 encoded hash call with invalid number ***
+2018-04-26 15:22:34,446 INFO     - ** Running teardown_function method **
+2018-04-26 15:22:34,446 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:22:34,446 INFO     - * Running teardown_module method in test_get_password_base64_encoded... *
+2018-04-26 15:22:34,446 INFO     - * Exiting teardown_module method in test_get_password_base64_encoded... *
+2018-04-26 15:22:34,448 INFO     - * Running setup_module method in test_get_stats_request... *
+2018-04-26 15:22:34,448 INFO     - Opening yaml file
+2018-04-26 15:22:34,449 INFO     - Platform: darwin
+2018-04-26 15:22:34,449 INFO     - Platform: darwin
+2018-04-26 15:22:34,449 INFO     - * Exiting setup_module method in test_get_stats_request... *
+2018-04-26 15:22:34,449 INFO     - * Exiting setup_module method in test_get_stats_request... *
+2018-04-26 15:22:34,449 INFO     - ** Running setup_function method **
+2018-04-26 15:22:34,449 INFO     - ** Running setup_function method **
+2018-04-26 15:22:34,449 INFO     - Opening yaml file
+2018-04-26 15:22:34,449 INFO     - Opening yaml file
+2018-04-26 15:22:34,450 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:22:34,450 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:22:34,450 INFO     - Running application
+2018-04-26 15:22:34,450 INFO     - Running application
+2018-04-26 15:22:34,453 INFO     - Launching application success
+2018-04-26 15:22:34,453 INFO     - Launching application success
+2018-04-26 15:22:34,454 INFO     - ** Exiting setup_function method **
+2018-04-26 15:22:34,454 INFO     - ** Exiting setup_function method **
+2018-04-26 15:22:34,455 INFO     - *** Starting no stats call ***
+2018-04-26 15:22:34,455 INFO     - *** Starting no stats call ***
+2018-04-26 15:22:34,456 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 15:22:34,456 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 15:22:34,465 INFO     - GET JSON stats response :{"TotalRequests":0,"AverageTime":0}
+2018-04-26 15:22:34,465 INFO     - GET JSON stats response :{"TotalRequests":0,"AverageTime":0}
+2018-04-26 15:22:34,465 INFO     - GET JSON stats response :{"TotalRequests":0,"AverageTime":0}
+2018-04-26 15:22:34,465 INFO     - GET JSON stats response :{"TotalRequests":0,"AverageTime":0}
+2018-04-26 15:22:34,466 INFO     - matched 0 stats result
+2018-04-26 15:22:34,466 INFO     - matched 0 stats result
+2018-04-26 15:22:34,466 INFO     - *** Finished no stats call ***
+2018-04-26 15:22:34,466 INFO     - *** Finished no stats call ***
+2018-04-26 15:22:34,467 INFO     - ** Running teardown_function method **
+2018-04-26 15:22:34,467 INFO     - ** Running teardown_function method **
+2018-04-26 15:22:34,468 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:22:34,468 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:22:34,469 INFO     - ** Running setup_function method **
+2018-04-26 15:22:34,469 INFO     - ** Running setup_function method **
+2018-04-26 15:22:34,469 INFO     - Opening yaml file
+2018-04-26 15:22:34,469 INFO     - Opening yaml file
+2018-04-26 15:22:34,471 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:22:34,471 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:22:34,471 INFO     - Running application
+2018-04-26 15:22:34,471 INFO     - Running application
+2018-04-26 15:22:34,475 INFO     - Launching application success
+2018-04-26 15:22:34,475 INFO     - Launching application success
+2018-04-26 15:22:34,476 INFO     - ** Exiting setup_function method **
+2018-04-26 15:22:34,476 INFO     - ** Exiting setup_function method **
+2018-04-26 15:22:34,478 INFO     - *** Starting stats call for one request ***
+2018-04-26 15:22:34,478 INFO     - *** Starting stats call for one request ***
+2018-04-26 15:22:34,478 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'statsRequestForOneRequest1'}
+2018-04-26 15:22:34,478 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'statsRequestForOneRequest1'}
+2018-04-26 15:22:39,490 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'statsRequestForOneRequest1'}
+2018-04-26 15:22:39,490 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'statsRequestForOneRequest1'}
+2018-04-26 15:22:39,491 INFO     - POST REST int response: 1
+2018-04-26 15:22:39,491 INFO     - POST REST int response: 1
+2018-04-26 15:22:39,491 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:39,491 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:39,491 INFO     - POST REST Request elapsed time (microseconds): 9464
+2018-04-26 15:22:39,491 INFO     - POST REST Request elapsed time (microseconds): 9464
+2018-04-26 15:22:39,492 INFO     - POST REST response code: 200
+2018-04-26 15:22:39,492 INFO     - POST REST response code: 200
+2018-04-26 15:22:39,492 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 15:22:39,492 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 15:22:39,498 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":231427}
+2018-04-26 15:22:39,498 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":231427}
+2018-04-26 15:22:39,499 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":231427}
+2018-04-26 15:22:39,499 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":231427}
+2018-04-26 15:22:39,499 INFO     - matched stats result for one hash request
+2018-04-26 15:22:39,499 INFO     - matched stats result for one hash request
+2018-04-26 15:22:39,499 INFO     - *** Finished stats call for one request ***
+2018-04-26 15:22:39,499 INFO     - *** Finished stats call for one request ***
+2018-04-26 15:22:39,500 INFO     - ** Running teardown_function method **
+2018-04-26 15:22:39,500 INFO     - ** Running teardown_function method **
+2018-04-26 15:22:39,500 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:22:39,500 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:22:39,501 INFO     - * Running teardown_module method in test_get_stats_request... *
+2018-04-26 15:22:39,501 INFO     - * Running teardown_module method in test_get_stats_request... *
+2018-04-26 15:22:39,501 INFO     - * Exiting teardown_module method in test_get_stats_request... *
+2018-04-26 15:22:39,501 INFO     - * Exiting teardown_module method in test_get_stats_request... *
+2018-04-26 15:22:39,502 INFO     - * Running setup_module method in test_post_password... *
+2018-04-26 15:22:39,502 INFO     - * Running setup_module method in test_post_password... *
+2018-04-26 15:22:39,502 INFO     - Opening yaml file
+2018-04-26 15:22:39,502 INFO     - Opening yaml file
+2018-04-26 15:22:39,503 INFO     - Platform: darwin
+2018-04-26 15:22:39,503 INFO     - Platform: darwin
+2018-04-26 15:22:39,503 INFO     - Platform: darwin
+2018-04-26 15:22:39,504 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-26 15:22:39,504 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-26 15:22:39,504 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-26 15:22:39,504 INFO     - ** Running setup_function method **
+2018-04-26 15:22:39,504 INFO     - ** Running setup_function method **
+2018-04-26 15:22:39,504 INFO     - ** Running setup_function method **
+2018-04-26 15:22:39,504 INFO     - Opening yaml file
+2018-04-26 15:22:39,504 INFO     - Opening yaml file
+2018-04-26 15:22:39,504 INFO     - Opening yaml file
+2018-04-26 15:22:39,505 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:22:39,505 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:22:39,505 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:22:39,505 INFO     - Running application
+2018-04-26 15:22:39,505 INFO     - Running application
+2018-04-26 15:22:39,505 INFO     - Running application
+2018-04-26 15:22:39,508 INFO     - Launching application success
+2018-04-26 15:22:39,508 INFO     - Launching application success
+2018-04-26 15:22:39,508 INFO     - Launching application success
+2018-04-26 15:22:39,509 INFO     - ** Exiting setup_function method **
+2018-04-26 15:22:39,509 INFO     - ** Exiting setup_function method **
+2018-04-26 15:22:39,509 INFO     - ** Exiting setup_function method **
+2018-04-26 15:22:39,511 INFO     - *** Starting concurrent test calls ***
+2018-04-26 15:22:39,511 INFO     - *** Starting concurrent test calls ***
+2018-04-26 15:22:39,511 INFO     - *** Starting concurrent test calls ***
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent4'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent4'}
+2018-04-26 15:22:39,518 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent4'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-26 15:22:39,518 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-26 15:22:39,518 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-26 15:22:39,517 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-26 15:22:39,518 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-26 15:22:39,518 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-26 15:22:39,518 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-26 15:22:44,530 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent0'}
+2018-04-26 15:22:44,530 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent0'}
+2018-04-26 15:22:44,530 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent0'}
+2018-04-26 15:22:44,530 INFO     - POST REST int response: 1
+2018-04-26 15:22:44,530 INFO     - POST REST int response: 1
+2018-04-26 15:22:44,530 INFO     - POST REST int response: 1
+2018-04-26 15:22:44,531 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,531 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,531 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,531 INFO     - POST REST Request elapsed time (microseconds): 7689
+2018-04-26 15:22:44,531 INFO     - POST REST Request elapsed time (microseconds): 7689
+2018-04-26 15:22:44,531 INFO     - POST REST Request elapsed time (microseconds): 7689
+2018-04-26 15:22:44,531 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,531 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,531 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,531 INFO     - GET REST call concurrent response: 1
+2018-04-26 15:22:44,531 INFO     - GET REST call concurrent response: 1
+2018-04-26 15:22:44,531 INFO     - GET REST call concurrent response: 1
+2018-04-26 15:22:44,539 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent2'}
+2018-04-26 15:22:44,539 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent2'}
+2018-04-26 15:22:44,539 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent2'}
+2018-04-26 15:22:44,539 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent1'}
+2018-04-26 15:22:44,539 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent1'}
+2018-04-26 15:22:44,540 INFO     - POST REST int response: 2
+2018-04-26 15:22:44,539 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent1'}
+2018-04-26 15:22:44,540 INFO     - POST REST int response: 2
+2018-04-26 15:22:44,540 INFO     - POST REST int response: 2
+2018-04-26 15:22:44,541 INFO     - POST REST int response: 3
+2018-04-26 15:22:44,541 INFO     - POST REST int response: 3
+2018-04-26 15:22:44,541 INFO     - POST REST int response: 3
+2018-04-26 15:22:44,541 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,541 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,541 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,542 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,542 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,542 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,542 INFO     - POST REST Request elapsed time (microseconds): 7289
+2018-04-26 15:22:44,542 INFO     - POST REST Request elapsed time (microseconds): 7289
+2018-04-26 15:22:44,542 INFO     - POST REST Request elapsed time (microseconds): 7289
+2018-04-26 15:22:44,542 INFO     - POST REST Request elapsed time (microseconds): 15590
+2018-04-26 15:22:44,542 INFO     - POST REST Request elapsed time (microseconds): 15590
+2018-04-26 15:22:44,543 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,543 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,542 INFO     - POST REST Request elapsed time (microseconds): 15590
+2018-04-26 15:22:44,543 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,543 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,543 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,543 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,544 INFO     - GET REST call concurrent response: 3
+2018-04-26 15:22:44,544 INFO     - GET REST call concurrent response: 3
+2018-04-26 15:22:44,544 INFO     - GET REST call concurrent response: 3
+2018-04-26 15:22:44,544 INFO     - GET REST call concurrent response: 2
+2018-04-26 15:22:44,544 INFO     - GET REST call concurrent response: 2
+2018-04-26 15:22:44,544 INFO     - GET REST call concurrent response: 2
+2018-04-26 15:22:44,545 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent4'}
+2018-04-26 15:22:44,545 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent4'}
+2018-04-26 15:22:44,545 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent4'}
+2018-04-26 15:22:44,546 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent3'}
+2018-04-26 15:22:44,547 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent5'}
+2018-04-26 15:22:44,546 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent3'}
+2018-04-26 15:22:44,546 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent3'}
+2018-04-26 15:22:44,547 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent5'}
+2018-04-26 15:22:44,547 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent5'}
+2018-04-26 15:22:44,547 INFO     - POST REST int response: 4
+2018-04-26 15:22:44,547 INFO     - POST REST int response: 6
+2018-04-26 15:22:44,547 INFO     - POST REST int response: 4
+2018-04-26 15:22:44,548 INFO     - POST REST int response: 5
+2018-04-26 15:22:44,547 INFO     - POST REST int response: 6
+2018-04-26 15:22:44,547 INFO     - POST REST int response: 4
+2018-04-26 15:22:44,548 INFO     - POST REST int response: 5
+2018-04-26 15:22:44,547 INFO     - POST REST int response: 6
+2018-04-26 15:22:44,548 INFO     - POST REST int response: 5
+2018-04-26 15:22:44,548 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,548 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,548 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,548 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,548 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,549 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,548 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,549 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,549 INFO     - POST REST Request elapsed time (microseconds): 12462
+2018-04-26 15:22:44,549 INFO     - POST REST Request elapsed time (microseconds): 11636
+2018-04-26 15:22:44,549 INFO     - POST REST Request elapsed time (microseconds): 12462
+2018-04-26 15:22:44,549 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,549 INFO     - POST REST Request elapsed time (microseconds): 11636
+2018-04-26 15:22:44,549 INFO     - POST REST Request elapsed time (microseconds): 12462
+2018-04-26 15:22:44,551 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent6'}
+2018-04-26 15:22:44,551 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent6'}
+2018-04-26 15:22:44,549 INFO     - POST REST Request elapsed time (microseconds): 11636
+2018-04-26 15:22:44,551 INFO     - POST REST Request elapsed time (microseconds): 12925
+2018-04-26 15:22:44,551 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent6'}
+2018-04-26 15:22:44,551 INFO     - POST REST Request elapsed time (microseconds): 12925
+2018-04-26 15:22:44,551 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent9'}
+2018-04-26 15:22:44,551 INFO     - POST REST Request elapsed time (microseconds): 12925
+2018-04-26 15:22:44,551 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent9'}
+2018-04-26 15:22:44,552 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent7'}
+2018-04-26 15:22:44,552 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent7'}
+2018-04-26 15:22:44,551 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent9'}
+2018-04-26 15:22:44,552 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent7'}
+2018-04-26 15:22:44,552 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent8'}
+2018-04-26 15:22:44,552 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent8'}
+2018-04-26 15:22:44,552 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,552 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent8'}
+2018-04-26 15:22:44,552 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,552 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,552 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,552 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,553 INFO     - POST REST int response: 8
+2018-04-26 15:22:44,552 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,553 INFO     - POST REST int response: 8
+2018-04-26 15:22:44,553 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,553 INFO     - POST REST int response: 8
+2018-04-26 15:22:44,553 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,553 INFO     - POST REST int response: 7
+2018-04-26 15:22:44,553 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,553 INFO     - POST REST int response: 7
+2018-04-26 15:22:44,553 INFO     - POST REST int response: 9
+2018-04-26 15:22:44,553 INFO     - POST REST int response: 7
+2018-04-26 15:22:44,553 INFO     - POST REST int response: 9
+2018-04-26 15:22:44,554 INFO     - POST REST int response: 10
+2018-04-26 15:22:44,553 INFO     - POST REST int response: 9
+2018-04-26 15:22:44,555 INFO     - GET REST call concurrent response: 6
+2018-04-26 15:22:44,554 INFO     - POST REST int response: 10
+2018-04-26 15:22:44,554 INFO     - POST REST int response: 10
+2018-04-26 15:22:44,555 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,555 INFO     - GET REST call concurrent response: 6
+2018-04-26 15:22:44,555 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,555 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,555 INFO     - GET REST call concurrent response: 6
+2018-04-26 15:22:44,556 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,555 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,556 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,555 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,556 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,557 INFO     - GET REST call concurrent response: 4
+2018-04-26 15:22:44,556 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,555 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,557 INFO     - POST REST Request elapsed time (microseconds): 8229
+2018-04-26 15:22:44,556 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,557 INFO     - GET REST call concurrent response: 4
+2018-04-26 15:22:44,557 INFO     - POST REST Request elapsed time (microseconds): 7179
+2018-04-26 15:22:44,557 INFO     - POST REST Request elapsed time (microseconds): 8229
+2018-04-26 15:22:44,558 INFO     - POST REST Request elapsed time (microseconds): 8261
+2018-04-26 15:22:44,556 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:44,557 INFO     - POST REST Request elapsed time (microseconds): 7179
+2018-04-26 15:22:44,557 INFO     - GET REST call concurrent response: 4
+2018-04-26 15:22:44,558 INFO     - POST REST Request elapsed time (microseconds): 7591
+2018-04-26 15:22:44,558 INFO     - POST REST Request elapsed time (microseconds): 8261
+2018-04-26 15:22:44,557 INFO     - POST REST Request elapsed time (microseconds): 8229
+2018-04-26 15:22:44,558 INFO     - GET REST call concurrent response: 5
+2018-04-26 15:22:44,558 INFO     - POST REST Request elapsed time (microseconds): 7591
+2018-04-26 15:22:44,557 INFO     - POST REST Request elapsed time (microseconds): 7179
+2018-04-26 15:22:44,559 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,558 INFO     - GET REST call concurrent response: 5
+2018-04-26 15:22:44,558 INFO     - POST REST Request elapsed time (microseconds): 8261
+2018-04-26 15:22:44,559 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,559 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,558 INFO     - POST REST Request elapsed time (microseconds): 7591
+2018-04-26 15:22:44,559 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,558 INFO     - GET REST call concurrent response: 5
+2018-04-26 15:22:44,559 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,559 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,559 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,559 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,559 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,559 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,560 INFO     - GET REST call concurrent response: 8
+2018-04-26 15:22:44,559 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,560 INFO     - GET REST call concurrent response: 8
+2018-04-26 15:22:44,559 INFO     - POST REST response code: 200
+2018-04-26 15:22:44,560 INFO     - GET REST call concurrent response: 8
+2018-04-26 15:22:44,561 INFO     - GET REST call concurrent response: 9
+2018-04-26 15:22:44,561 INFO     - GET REST call concurrent response: 9
+2018-04-26 15:22:44,561 INFO     - GET REST call concurrent response: 9
+2018-04-26 15:22:44,561 INFO     - GET REST call concurrent response: 10
+2018-04-26 15:22:44,561 INFO     - GET REST call concurrent response: 10
+2018-04-26 15:22:44,561 INFO     - GET REST call concurrent response: 10
+2018-04-26 15:22:44,561 INFO     - GET REST call concurrent response: 7
+2018-04-26 15:22:44,561 INFO     - GET REST call concurrent response: 7
+2018-04-26 15:22:44,561 INFO     - GET REST call concurrent response: 7
+2018-04-26 15:22:44,562 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 15:22:44,562 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 15:22:44,562 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 15:22:44,568 INFO     - GET JSON stats response :{"TotalRequests":10,"AverageTime":62028}
+2018-04-26 15:22:44,568 INFO     - GET JSON stats response :{"TotalRequests":10,"AverageTime":62028}
+2018-04-26 15:22:44,568 INFO     - GET JSON stats response :{"TotalRequests":10,"AverageTime":62028}
+2018-04-26 15:22:44,568 INFO     - GET JSON stats response :{"TotalRequests":10,"AverageTime":62028}
+2018-04-26 15:22:44,568 INFO     - GET JSON stats response :{"TotalRequests":10,"AverageTime":62028}
+2018-04-26 15:22:44,568 INFO     - GET JSON stats response :{"TotalRequests":10,"AverageTime":62028}
+2018-04-26 15:22:44,569 INFO     - *** Finished concurrent test calls ***
+2018-04-26 15:22:44,569 INFO     - *** Finished concurrent test calls ***
+2018-04-26 15:22:44,569 INFO     - *** Finished concurrent test calls ***
+2018-04-26 15:22:44,570 INFO     - ** Running teardown_function method **
+2018-04-26 15:22:44,570 INFO     - ** Running teardown_function method **
+2018-04-26 15:22:44,570 INFO     - ** Running teardown_function method **
+2018-04-26 15:22:44,570 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:22:44,570 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:22:44,570 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:22:44,572 INFO     - ** Running setup_function method **
+2018-04-26 15:22:44,572 INFO     - ** Running setup_function method **
+2018-04-26 15:22:44,572 INFO     - ** Running setup_function method **
+2018-04-26 15:22:44,572 INFO     - Opening yaml file
+2018-04-26 15:22:44,572 INFO     - Opening yaml file
+2018-04-26 15:22:44,572 INFO     - Opening yaml file
+2018-04-26 15:22:44,573 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:22:44,573 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:22:44,573 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:22:44,574 INFO     - Running application
+2018-04-26 15:22:44,574 INFO     - Running application
+2018-04-26 15:22:44,574 INFO     - Running application
+2018-04-26 15:22:44,578 INFO     - Launching application success
+2018-04-26 15:22:44,578 INFO     - Launching application success
+2018-04-26 15:22:44,578 INFO     - Launching application success
+2018-04-26 15:22:44,579 INFO     - ** Exiting setup_function method **
+2018-04-26 15:22:44,579 INFO     - ** Exiting setup_function method **
+2018-04-26 15:22:44,579 INFO     - ** Exiting setup_function method **
+2018-04-26 15:22:44,581 INFO     - *** Starting parameterized test calls ***
+2018-04-26 15:22:44,581 INFO     - *** Starting parameterized test calls ***
+2018-04-26 15:22:44,581 INFO     - *** Starting parameterized test calls ***
+2018-04-26 15:22:44,582 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': ''}
+2018-04-26 15:22:44,582 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': ''}
+2018-04-26 15:22:44,582 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': ''}
+2018-04-26 15:22:49,595 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': ''}
+2018-04-26 15:22:49,595 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': ''}
+2018-04-26 15:22:49,595 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': ''}
+2018-04-26 15:22:49,595 INFO     - POST REST int response: 1
+2018-04-26 15:22:49,595 INFO     - POST REST int response: 1
+2018-04-26 15:22:49,595 INFO     - POST REST int response: 1
+2018-04-26 15:22:49,595 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:49,595 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:49,595 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:49,596 INFO     - POST REST Request elapsed time (microseconds): 9756
+2018-04-26 15:22:49,596 INFO     - POST REST Request elapsed time (microseconds): 9756
+2018-04-26 15:22:49,596 INFO     - POST REST Request elapsed time (microseconds): 9756
+2018-04-26 15:22:49,596 INFO     - POST REST response code: 200
+2018-04-26 15:22:49,596 INFO     - POST REST response code: 200
+2018-04-26 15:22:49,596 INFO     - POST REST response code: 200
+2018-04-26 15:22:49,672 INFO     - ** Running teardown_function method **
+2018-04-26 15:22:49,672 INFO     - ** Running teardown_function method **
+2018-04-26 15:22:49,672 INFO     - ** Running teardown_function method **
+2018-04-26 15:22:49,672 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:22:49,672 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:22:49,672 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:22:49,673 INFO     - ** Running setup_function method **
+2018-04-26 15:22:49,673 INFO     - ** Running setup_function method **
+2018-04-26 15:22:49,673 INFO     - ** Running setup_function method **
+2018-04-26 15:22:49,674 INFO     - Opening yaml file
+2018-04-26 15:22:49,674 INFO     - Opening yaml file
+2018-04-26 15:22:49,674 INFO     - Opening yaml file
+2018-04-26 15:22:49,675 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:22:49,675 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:22:49,675 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:22:49,676 INFO     - Running application
+2018-04-26 15:22:49,676 INFO     - Running application
+2018-04-26 15:22:49,676 INFO     - Running application
+2018-04-26 15:22:49,679 INFO     - Launching application success
+2018-04-26 15:22:49,679 INFO     - Launching application success
+2018-04-26 15:22:49,679 INFO     - Launching application success
+2018-04-26 15:22:49,680 INFO     - ** Exiting setup_function method **
+2018-04-26 15:22:49,680 INFO     - ** Exiting setup_function method **
+2018-04-26 15:22:49,680 INFO     - ** Exiting setup_function method **
+2018-04-26 15:22:49,682 INFO     - *** Starting parameterized test calls ***
+2018-04-26 15:22:49,682 INFO     - *** Starting parameterized test calls ***
+2018-04-26 15:22:49,682 INFO     - *** Starting parameterized test calls ***
+2018-04-26 15:22:49,682 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'a'}
+2018-04-26 15:22:49,682 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'a'}
+2018-04-26 15:22:49,682 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'a'}
+2018-04-26 15:22:54,695 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'a'}
+2018-04-26 15:22:54,695 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'a'}
+2018-04-26 15:22:54,695 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'a'}
+2018-04-26 15:22:54,695 INFO     - POST REST int response: 1
+2018-04-26 15:22:54,695 INFO     - POST REST int response: 1
+2018-04-26 15:22:54,695 INFO     - POST REST int response: 1
+2018-04-26 15:22:54,696 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:54,696 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:54,696 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:54,696 INFO     - POST REST Request elapsed time (microseconds): 9277
+2018-04-26 15:22:54,696 INFO     - POST REST Request elapsed time (microseconds): 9277
+2018-04-26 15:22:54,696 INFO     - POST REST Request elapsed time (microseconds): 9277
+2018-04-26 15:22:54,696 INFO     - POST REST response code: 200
+2018-04-26 15:22:54,696 INFO     - POST REST response code: 200
+2018-04-26 15:22:54,696 INFO     - POST REST response code: 200
+2018-04-26 15:22:54,697 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 15:22:54,697 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 15:22:54,697 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 15:22:54,703 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":243588}
+2018-04-26 15:22:54,703 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":243588}
+2018-04-26 15:22:54,703 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":243588}
+2018-04-26 15:22:54,703 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":243588}
+2018-04-26 15:22:54,703 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":243588}
+2018-04-26 15:22:54,703 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":243588}
+2018-04-26 15:22:54,704 INFO     - *** Finished parameterized test calls ***
+2018-04-26 15:22:54,704 INFO     - *** Finished parameterized test calls ***
+2018-04-26 15:22:54,704 INFO     - *** Finished parameterized test calls ***
+2018-04-26 15:22:54,705 INFO     - ** Running teardown_function method **
+2018-04-26 15:22:54,705 INFO     - ** Running teardown_function method **
+2018-04-26 15:22:54,705 INFO     - ** Running teardown_function method **
+2018-04-26 15:22:54,705 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:22:54,705 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:22:54,705 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:22:54,706 INFO     - ** Running setup_function method **
+2018-04-26 15:22:54,706 INFO     - ** Running setup_function method **
+2018-04-26 15:22:54,706 INFO     - ** Running setup_function method **
+2018-04-26 15:22:54,706 INFO     - Opening yaml file
+2018-04-26 15:22:54,706 INFO     - Opening yaml file
+2018-04-26 15:22:54,706 INFO     - Opening yaml file
+2018-04-26 15:22:54,707 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:22:54,707 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:22:54,707 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:22:54,708 INFO     - Running application
+2018-04-26 15:22:54,708 INFO     - Running application
+2018-04-26 15:22:54,708 INFO     - Running application
+2018-04-26 15:22:54,711 INFO     - Launching application success
+2018-04-26 15:22:54,711 INFO     - Launching application success
+2018-04-26 15:22:54,711 INFO     - Launching application success
+2018-04-26 15:22:54,712 INFO     - ** Exiting setup_function method **
+2018-04-26 15:22:54,712 INFO     - ** Exiting setup_function method **
+2018-04-26 15:22:54,712 INFO     - ** Exiting setup_function method **
+2018-04-26 15:22:54,714 INFO     - *** Starting parameterized test calls ***
+2018-04-26 15:22:54,714 INFO     - *** Starting parameterized test calls ***
+2018-04-26 15:22:54,714 INFO     - *** Starting parameterized test calls ***
+2018-04-26 15:22:54,715 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': '!@#$%&*()'}
+2018-04-26 15:22:54,715 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': '!@#$%&*()'}
+2018-04-26 15:22:54,715 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': '!@#$%&*()'}
+2018-04-26 15:22:59,728 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': '!@#$%&*()'}
+2018-04-26 15:22:59,728 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': '!@#$%&*()'}
+2018-04-26 15:22:59,728 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': '!@#$%&*()'}
+2018-04-26 15:22:59,728 INFO     - POST REST int response: 1
+2018-04-26 15:22:59,728 INFO     - POST REST int response: 1
+2018-04-26 15:22:59,728 INFO     - POST REST int response: 1
+2018-04-26 15:22:59,728 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:59,728 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:59,728 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:22:59,729 INFO     - POST REST Request elapsed time (microseconds): 9413
+2018-04-26 15:22:59,729 INFO     - POST REST Request elapsed time (microseconds): 9413
+2018-04-26 15:22:59,729 INFO     - POST REST Request elapsed time (microseconds): 9413
+2018-04-26 15:22:59,729 INFO     - POST REST response code: 200
+2018-04-26 15:22:59,729 INFO     - POST REST response code: 200
+2018-04-26 15:22:59,729 INFO     - POST REST response code: 200
+2018-04-26 15:22:59,729 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 15:22:59,729 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 15:22:59,729 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 15:22:59,735 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":180739}
+2018-04-26 15:22:59,735 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":180739}
+2018-04-26 15:22:59,735 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":180739}
+2018-04-26 15:22:59,736 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":180739}
+2018-04-26 15:22:59,736 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":180739}
+2018-04-26 15:22:59,736 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":180739}
+2018-04-26 15:22:59,736 INFO     - *** Finished parameterized test calls ***
+2018-04-26 15:22:59,736 INFO     - *** Finished parameterized test calls ***
+2018-04-26 15:22:59,736 INFO     - *** Finished parameterized test calls ***
+2018-04-26 15:22:59,737 INFO     - ** Running teardown_function method **
+2018-04-26 15:22:59,737 INFO     - ** Running teardown_function method **
+2018-04-26 15:22:59,737 INFO     - ** Running teardown_function method **
+2018-04-26 15:22:59,737 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:22:59,737 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:22:59,737 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:22:59,738 INFO     - ** Running setup_function method **
+2018-04-26 15:22:59,738 INFO     - ** Running setup_function method **
+2018-04-26 15:22:59,738 INFO     - ** Running setup_function method **
+2018-04-26 15:22:59,738 INFO     - Opening yaml file
+2018-04-26 15:22:59,738 INFO     - Opening yaml file
+2018-04-26 15:22:59,738 INFO     - Opening yaml file
+2018-04-26 15:22:59,740 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:22:59,740 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:22:59,740 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:22:59,740 INFO     - Running application
+2018-04-26 15:22:59,740 INFO     - Running application
+2018-04-26 15:22:59,740 INFO     - Running application
+2018-04-26 15:22:59,743 INFO     - Launching application success
+2018-04-26 15:22:59,743 INFO     - Launching application success
+2018-04-26 15:22:59,743 INFO     - Launching application success
+2018-04-26 15:22:59,744 INFO     - ** Exiting setup_function method **
+2018-04-26 15:22:59,744 INFO     - ** Exiting setup_function method **
+2018-04-26 15:22:59,744 INFO     - ** Exiting setup_function method **
+2018-04-26 15:22:59,746 INFO     - *** Starting parameterized test calls ***
+2018-04-26 15:22:59,746 INFO     - *** Starting parameterized test calls ***
+2018-04-26 15:22:59,746 INFO     - *** Starting parameterized test calls ***
+2018-04-26 15:22:59,746 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'boguskey': 'password1'}
+2018-04-26 15:22:59,746 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'boguskey': 'password1'}
+2018-04-26 15:22:59,746 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'boguskey': 'password1'}
+2018-04-26 15:23:04,759 INFO     - Status Code from POST REST call from query parameter: 200 ,{'boguskey': 'password1'}
+2018-04-26 15:23:04,759 INFO     - Status Code from POST REST call from query parameter: 200 ,{'boguskey': 'password1'}
+2018-04-26 15:23:04,759 INFO     - Status Code from POST REST call from query parameter: 200 ,{'boguskey': 'password1'}
+2018-04-26 15:23:04,760 INFO     - POST REST int response: 1
+2018-04-26 15:23:04,760 INFO     - POST REST int response: 1
+2018-04-26 15:23:04,760 INFO     - POST REST int response: 1
+2018-04-26 15:23:04,760 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:04,760 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:04,760 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:04,760 INFO     - POST REST Request elapsed time (microseconds): 9959
+2018-04-26 15:23:04,760 INFO     - POST REST Request elapsed time (microseconds): 9959
+2018-04-26 15:23:04,760 INFO     - POST REST Request elapsed time (microseconds): 9959
+2018-04-26 15:23:04,761 INFO     - POST REST response code: 200
+2018-04-26 15:23:04,761 INFO     - POST REST response code: 200
+2018-04-26 15:23:04,761 INFO     - POST REST response code: 200
+2018-04-26 15:23:04,771 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:04,771 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:04,771 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:04,772 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:04,772 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:04,772 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:04,773 INFO     - ** Running setup_function method **
+2018-04-26 15:23:04,773 INFO     - ** Running setup_function method **
+2018-04-26 15:23:04,773 INFO     - ** Running setup_function method **
+2018-04-26 15:23:04,773 INFO     - Opening yaml file
+2018-04-26 15:23:04,773 INFO     - Opening yaml file
+2018-04-26 15:23:04,773 INFO     - Opening yaml file
+2018-04-26 15:23:04,775 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:23:04,775 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:23:04,775 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:23:04,775 INFO     - Running application
+2018-04-26 15:23:04,775 INFO     - Running application
+2018-04-26 15:23:04,775 INFO     - Running application
+2018-04-26 15:23:04,779 INFO     - Launching application success
+2018-04-26 15:23:04,779 INFO     - Launching application success
+2018-04-26 15:23:04,779 INFO     - Launching application success
+2018-04-26 15:23:04,780 INFO     - ** Exiting setup_function method **
+2018-04-26 15:23:04,780 INFO     - ** Exiting setup_function method **
+2018-04-26 15:23:04,780 INFO     - ** Exiting setup_function method **
+2018-04-26 15:23:04,782 INFO     - *** Starting parameterized test calls ***
+2018-04-26 15:23:04,782 INFO     - *** Starting parameterized test calls ***
+2018-04-26 15:23:04,782 INFO     - *** Starting parameterized test calls ***
+2018-04-26 15:23:04,782 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'': 'password1'}
+2018-04-26 15:23:04,782 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'': 'password1'}
+2018-04-26 15:23:04,782 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'': 'password1'}
+2018-04-26 15:23:09,794 INFO     - Status Code from POST REST call from query parameter: 200 ,{'': 'password1'}
+2018-04-26 15:23:09,794 INFO     - Status Code from POST REST call from query parameter: 200 ,{'': 'password1'}
+2018-04-26 15:23:09,794 INFO     - Status Code from POST REST call from query parameter: 200 ,{'': 'password1'}
+2018-04-26 15:23:09,795 INFO     - POST REST int response: 1
+2018-04-26 15:23:09,795 INFO     - POST REST int response: 1
+2018-04-26 15:23:09,795 INFO     - POST REST int response: 1
+2018-04-26 15:23:09,795 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:09,795 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:09,795 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:09,795 INFO     - POST REST Request elapsed time (microseconds): 8350
+2018-04-26 15:23:09,795 INFO     - POST REST Request elapsed time (microseconds): 8350
+2018-04-26 15:23:09,795 INFO     - POST REST Request elapsed time (microseconds): 8350
+2018-04-26 15:23:09,796 INFO     - POST REST response code: 200
+2018-04-26 15:23:09,796 INFO     - POST REST response code: 200
+2018-04-26 15:23:09,796 INFO     - POST REST response code: 200
+2018-04-26 15:23:09,805 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:09,805 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:09,805 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:09,806 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:09,806 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:09,806 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:09,807 INFO     - ** Running setup_function method **
+2018-04-26 15:23:09,807 INFO     - ** Running setup_function method **
+2018-04-26 15:23:09,807 INFO     - ** Running setup_function method **
+2018-04-26 15:23:09,807 INFO     - Opening yaml file
+2018-04-26 15:23:09,807 INFO     - Opening yaml file
+2018-04-26 15:23:09,807 INFO     - Opening yaml file
+2018-04-26 15:23:09,808 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:23:09,808 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:23:09,808 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:23:09,809 INFO     - Running application
+2018-04-26 15:23:09,809 INFO     - Running application
+2018-04-26 15:23:09,809 INFO     - Running application
+2018-04-26 15:23:09,813 INFO     - Launching application success
+2018-04-26 15:23:09,813 INFO     - Launching application success
+2018-04-26 15:23:09,813 INFO     - Launching application success
+2018-04-26 15:23:09,814 INFO     - ** Exiting setup_function method **
+2018-04-26 15:23:09,814 INFO     - ** Exiting setup_function method **
+2018-04-26 15:23:09,814 INFO     - ** Exiting setup_function method **
+2018-04-26 15:23:09,816 INFO     - *** Starting parameterized test calls ***
+2018-04-26 15:23:09,816 INFO     - *** Starting parameterized test calls ***
+2018-04-26 15:23:09,816 INFO     - *** Starting parameterized test calls ***
+2018-04-26 15:23:09,817 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'': ''}
+2018-04-26 15:23:09,817 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'': ''}
+2018-04-26 15:23:09,817 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'': ''}
+2018-04-26 15:23:14,829 INFO     - Status Code from POST REST call from query parameter: 200 ,{'': ''}
+2018-04-26 15:23:14,829 INFO     - Status Code from POST REST call from query parameter: 200 ,{'': ''}
+2018-04-26 15:23:14,829 INFO     - Status Code from POST REST call from query parameter: 200 ,{'': ''}
+2018-04-26 15:23:14,830 INFO     - POST REST int response: 1
+2018-04-26 15:23:14,830 INFO     - POST REST int response: 1
+2018-04-26 15:23:14,830 INFO     - POST REST int response: 1
+2018-04-26 15:23:14,830 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:14,830 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:14,830 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:14,830 INFO     - POST REST Request elapsed time (microseconds): 9124
+2018-04-26 15:23:14,830 INFO     - POST REST Request elapsed time (microseconds): 9124
+2018-04-26 15:23:14,830 INFO     - POST REST Request elapsed time (microseconds): 9124
+2018-04-26 15:23:14,830 INFO     - POST REST response code: 200
+2018-04-26 15:23:14,830 INFO     - POST REST response code: 200
+2018-04-26 15:23:14,830 INFO     - POST REST response code: 200
+2018-04-26 15:23:14,838 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:14,838 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:14,838 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:14,838 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:14,838 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:14,838 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:14,839 INFO     - ** Running setup_function method **
+2018-04-26 15:23:14,839 INFO     - ** Running setup_function method **
+2018-04-26 15:23:14,839 INFO     - ** Running setup_function method **
+2018-04-26 15:23:14,839 INFO     - Opening yaml file
+2018-04-26 15:23:14,839 INFO     - Opening yaml file
+2018-04-26 15:23:14,839 INFO     - Opening yaml file
+2018-04-26 15:23:14,841 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:23:14,841 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:23:14,841 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:23:14,841 INFO     - Running application
+2018-04-26 15:23:14,841 INFO     - Running application
+2018-04-26 15:23:14,841 INFO     - Running application
+2018-04-26 15:23:14,844 INFO     - Launching application success
+2018-04-26 15:23:14,844 INFO     - Launching application success
+2018-04-26 15:23:14,844 INFO     - Launching application success
+2018-04-26 15:23:14,844 INFO     - ** Exiting setup_function method **
+2018-04-26 15:23:14,844 INFO     - ** Exiting setup_function method **
+2018-04-26 15:23:14,844 INFO     - ** Exiting setup_function method **
+2018-04-26 15:23:14,846 INFO     - *** Starting single test call ***
+2018-04-26 15:23:14,846 INFO     - *** Starting single test call ***
+2018-04-26 15:23:14,846 INFO     - *** Starting single test call ***
+2018-04-26 15:23:14,847 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'angrymonkey'}
+2018-04-26 15:23:14,847 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'angrymonkey'}
+2018-04-26 15:23:14,847 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'angrymonkey'}
+2018-04-26 15:23:19,859 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'angrymonkey'}
+2018-04-26 15:23:19,859 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'angrymonkey'}
+2018-04-26 15:23:19,859 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'angrymonkey'}
+2018-04-26 15:23:19,859 INFO     - POST REST int response: 1
+2018-04-26 15:23:19,859 INFO     - POST REST int response: 1
+2018-04-26 15:23:19,859 INFO     - POST REST int response: 1
+2018-04-26 15:23:19,860 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:19,860 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:19,860 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:19,860 INFO     - POST REST Request elapsed time (microseconds): 9075
+2018-04-26 15:23:19,860 INFO     - POST REST Request elapsed time (microseconds): 9075
+2018-04-26 15:23:19,860 INFO     - POST REST Request elapsed time (microseconds): 9075
+2018-04-26 15:23:19,860 INFO     - POST REST response code: 200
+2018-04-26 15:23:19,860 INFO     - POST REST response code: 200
+2018-04-26 15:23:19,860 INFO     - POST REST response code: 200
+2018-04-26 15:23:19,861 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 15:23:19,861 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 15:23:19,861 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 15:23:19,868 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":230164}
+2018-04-26 15:23:19,868 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":230164}
+2018-04-26 15:23:19,868 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":230164}
+2018-04-26 15:23:19,869 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":230164}
+2018-04-26 15:23:19,869 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":230164}
+2018-04-26 15:23:19,869 INFO     - GET JSON stats response :{"TotalRequests":1,"AverageTime":230164}
+2018-04-26 15:23:19,869 INFO     - *** Finished single test call ***
+2018-04-26 15:23:19,869 INFO     - *** Finished single test call ***
+2018-04-26 15:23:19,869 INFO     - *** Finished single test call ***
+2018-04-26 15:23:19,870 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:19,870 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:19,870 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:19,870 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:19,870 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:19,870 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:19,872 INFO     - ** Running setup_function method **
+2018-04-26 15:23:19,872 INFO     - ** Running setup_function method **
+2018-04-26 15:23:19,872 INFO     - ** Running setup_function method **
+2018-04-26 15:23:19,872 INFO     - Opening yaml file
+2018-04-26 15:23:19,872 INFO     - Opening yaml file
+2018-04-26 15:23:19,872 INFO     - Opening yaml file
+2018-04-26 15:23:19,874 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:23:19,874 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:23:19,874 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:23:19,874 INFO     - Running application
+2018-04-26 15:23:19,874 INFO     - Running application
+2018-04-26 15:23:19,874 INFO     - Running application
+2018-04-26 15:23:19,878 INFO     - Launching application success
+2018-04-26 15:23:19,878 INFO     - Launching application success
+2018-04-26 15:23:19,878 INFO     - Launching application success
+2018-04-26 15:23:19,879 INFO     - ** Exiting setup_function method **
+2018-04-26 15:23:19,879 INFO     - ** Exiting setup_function method **
+2018-04-26 15:23:19,879 INFO     - ** Exiting setup_function method **
+2018-04-26 15:23:19,881 INFO     - *** Starting single test call with number returned immediately ***
+2018-04-26 15:23:19,881 INFO     - *** Starting single test call with number returned immediately ***
+2018-04-26 15:23:19,881 INFO     - *** Starting single test call with number returned immediately ***
+2018-04-26 15:23:19,881 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'angrymonkey'}
+2018-04-26 15:23:19,881 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'angrymonkey'}
+2018-04-26 15:23:19,881 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'angrymonkey'}
+2018-04-26 15:23:24,893 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'angrymonkey'}
+2018-04-26 15:23:24,893 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'angrymonkey'}
+2018-04-26 15:23:24,893 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'angrymonkey'}
+2018-04-26 15:23:24,894 INFO     - POST REST int response: 1
+2018-04-26 15:23:24,894 INFO     - POST REST int response: 1
+2018-04-26 15:23:24,894 INFO     - POST REST int response: 1
+2018-04-26 15:23:24,894 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:24,894 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:24,894 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:24,894 INFO     - POST REST Request elapsed time (microseconds): 8823
+2018-04-26 15:23:24,894 INFO     - POST REST Request elapsed time (microseconds): 8823
+2018-04-26 15:23:24,894 INFO     - POST REST Request elapsed time (microseconds): 8823
+2018-04-26 15:23:24,895 INFO     - POST REST response code: 200
+2018-04-26 15:23:24,895 INFO     - POST REST response code: 200
+2018-04-26 15:23:24,895 INFO     - POST REST response code: 200
+2018-04-26 15:23:24,902 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:24,902 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:24,902 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:24,903 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:24,903 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:24,903 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:24,904 INFO     - ** Running setup_function method **
+2018-04-26 15:23:24,904 INFO     - ** Running setup_function method **
+2018-04-26 15:23:24,904 INFO     - ** Running setup_function method **
+2018-04-26 15:23:24,904 INFO     - Opening yaml file
+2018-04-26 15:23:24,904 INFO     - Opening yaml file
+2018-04-26 15:23:24,904 INFO     - Opening yaml file
+2018-04-26 15:23:24,905 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:23:24,905 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:23:24,905 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:23:24,905 INFO     - Running application
+2018-04-26 15:23:24,905 INFO     - Running application
+2018-04-26 15:23:24,905 INFO     - Running application
+2018-04-26 15:23:24,908 INFO     - Launching application success
+2018-04-26 15:23:24,908 INFO     - Launching application success
+2018-04-26 15:23:24,908 INFO     - Launching application success
+2018-04-26 15:23:24,909 INFO     - ** Exiting setup_function method **
+2018-04-26 15:23:24,909 INFO     - ** Exiting setup_function method **
+2018-04-26 15:23:24,909 INFO     - ** Exiting setup_function method **
+2018-04-26 15:23:24,911 INFO     - *** Starting sequential test calls ***
+2018-04-26 15:23:24,911 INFO     - *** Starting sequential test calls ***
+2018-04-26 15:23:24,911 INFO     - *** Starting sequential test calls ***
+2018-04-26 15:23:24,912 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password0'}
+2018-04-26 15:23:24,912 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password0'}
+2018-04-26 15:23:24,912 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password0'}
+2018-04-26 15:23:29,925 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'password0'}
+2018-04-26 15:23:29,925 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'password0'}
+2018-04-26 15:23:29,925 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'password0'}
+2018-04-26 15:23:29,927 INFO     - POST REST int response: 1
+2018-04-26 15:23:29,927 INFO     - POST REST int response: 1
+2018-04-26 15:23:29,927 INFO     - POST REST int response: 1
+2018-04-26 15:23:29,927 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:29,927 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:29,927 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:29,927 INFO     - POST REST Request elapsed time (microseconds): 9755
+2018-04-26 15:23:29,927 INFO     - POST REST Request elapsed time (microseconds): 9755
+2018-04-26 15:23:29,927 INFO     - POST REST Request elapsed time (microseconds): 9755
+2018-04-26 15:23:29,927 INFO     - POST REST response code: 200
+2018-04-26 15:23:29,927 INFO     - POST REST response code: 200
+2018-04-26 15:23:29,927 INFO     - POST REST response code: 200
+2018-04-26 15:23:29,928 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password1'}
+2018-04-26 15:23:29,928 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password1'}
+2018-04-26 15:23:29,928 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password1'}
+2018-04-26 15:23:34,934 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'password1'}
+2018-04-26 15:23:34,934 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'password1'}
+2018-04-26 15:23:34,934 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'password1'}
+2018-04-26 15:23:34,934 INFO     - POST REST int response: 2
+2018-04-26 15:23:34,934 INFO     - POST REST int response: 2
+2018-04-26 15:23:34,934 INFO     - POST REST int response: 2
+2018-04-26 15:23:34,934 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:34,934 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:34,934 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:34,935 INFO     - POST REST Request elapsed time (microseconds): 3729
+2018-04-26 15:23:34,935 INFO     - POST REST Request elapsed time (microseconds): 3729
+2018-04-26 15:23:34,935 INFO     - POST REST Request elapsed time (microseconds): 3729
+2018-04-26 15:23:34,935 INFO     - POST REST response code: 200
+2018-04-26 15:23:34,935 INFO     - POST REST response code: 200
+2018-04-26 15:23:34,935 INFO     - POST REST response code: 200
+2018-04-26 15:23:34,935 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password2'}
+2018-04-26 15:23:34,935 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password2'}
+2018-04-26 15:23:34,935 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password2'}
+2018-04-26 15:23:39,945 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'password2'}
+2018-04-26 15:23:39,945 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'password2'}
+2018-04-26 15:23:39,945 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'password2'}
+2018-04-26 15:23:39,947 INFO     - POST REST int response: 3
+2018-04-26 15:23:39,947 INFO     - POST REST int response: 3
+2018-04-26 15:23:39,947 INFO     - POST REST int response: 3
+2018-04-26 15:23:39,947 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:39,947 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:39,947 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:39,947 INFO     - POST REST Request elapsed time (microseconds): 7623
+2018-04-26 15:23:39,947 INFO     - POST REST Request elapsed time (microseconds): 7623
+2018-04-26 15:23:39,947 INFO     - POST REST Request elapsed time (microseconds): 7623
+2018-04-26 15:23:39,948 INFO     - POST REST response code: 200
+2018-04-26 15:23:39,948 INFO     - POST REST response code: 200
+2018-04-26 15:23:39,948 INFO     - POST REST response code: 200
+2018-04-26 15:23:39,948 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password3'}
+2018-04-26 15:23:39,948 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password3'}
+2018-04-26 15:23:39,948 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password3'}
+2018-04-26 15:23:44,955 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'password3'}
+2018-04-26 15:23:44,955 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'password3'}
+2018-04-26 15:23:44,955 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'password3'}
+2018-04-26 15:23:44,955 INFO     - POST REST int response: 4
+2018-04-26 15:23:44,955 INFO     - POST REST int response: 4
+2018-04-26 15:23:44,955 INFO     - POST REST int response: 4
+2018-04-26 15:23:44,956 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:44,956 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:44,956 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:44,956 INFO     - POST REST Request elapsed time (microseconds): 3985
+2018-04-26 15:23:44,956 INFO     - POST REST Request elapsed time (microseconds): 3985
+2018-04-26 15:23:44,956 INFO     - POST REST Request elapsed time (microseconds): 3985
+2018-04-26 15:23:44,956 INFO     - POST REST response code: 200
+2018-04-26 15:23:44,956 INFO     - POST REST response code: 200
+2018-04-26 15:23:44,956 INFO     - POST REST response code: 200
+2018-04-26 15:23:44,957 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password4'}
+2018-04-26 15:23:44,957 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password4'}
+2018-04-26 15:23:44,957 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'password4'}
+2018-04-26 15:23:49,968 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'password4'}
+2018-04-26 15:23:49,968 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'password4'}
+2018-04-26 15:23:49,968 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'password4'}
+2018-04-26 15:23:49,971 INFO     - POST REST int response: 5
+2018-04-26 15:23:49,971 INFO     - POST REST int response: 5
+2018-04-26 15:23:49,971 INFO     - POST REST int response: 5
+2018-04-26 15:23:49,971 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:49,971 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:49,971 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:49,972 INFO     - POST REST Request elapsed time (microseconds): 8723
+2018-04-26 15:23:49,972 INFO     - POST REST Request elapsed time (microseconds): 8723
+2018-04-26 15:23:49,972 INFO     - POST REST Request elapsed time (microseconds): 8723
+2018-04-26 15:23:49,972 INFO     - POST REST response code: 200
+2018-04-26 15:23:49,972 INFO     - POST REST response code: 200
+2018-04-26 15:23:49,972 INFO     - POST REST response code: 200
+2018-04-26 15:23:49,973 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 15:23:49,973 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 15:23:49,973 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-26 15:23:49,979 INFO     - GET JSON stats response :{"TotalRequests":5,"AverageTime":94402}
+2018-04-26 15:23:49,979 INFO     - GET JSON stats response :{"TotalRequests":5,"AverageTime":94402}
+2018-04-26 15:23:49,979 INFO     - GET JSON stats response :{"TotalRequests":5,"AverageTime":94402}
+2018-04-26 15:23:49,980 INFO     - GET JSON stats response :{"TotalRequests":5,"AverageTime":94402}
+2018-04-26 15:23:49,980 INFO     - GET JSON stats response :{"TotalRequests":5,"AverageTime":94402}
+2018-04-26 15:23:49,980 INFO     - GET JSON stats response :{"TotalRequests":5,"AverageTime":94402}
+2018-04-26 15:23:49,980 INFO     - *** Finished sequential test calls ***
+2018-04-26 15:23:49,980 INFO     - *** Finished sequential test calls ***
+2018-04-26 15:23:49,980 INFO     - *** Finished sequential test calls ***
+2018-04-26 15:23:49,981 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:49,981 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:49,981 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:49,981 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:49,981 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:49,981 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:49,981 INFO     - * Running teardown_module method in test_post_password... *
+2018-04-26 15:23:49,981 INFO     - * Running teardown_module method in test_post_password... *
+2018-04-26 15:23:49,981 INFO     - * Running teardown_module method in test_post_password... *
+2018-04-26 15:23:49,981 INFO     - * Exiting teardown_module method in test_post_password... *
+2018-04-26 15:23:49,981 INFO     - * Exiting teardown_module method in test_post_password... *
+2018-04-26 15:23:49,981 INFO     - * Exiting teardown_module method in test_post_password... *
+2018-04-26 15:23:49,984 INFO     - * Running setup_module method in test_post_startup_shutdown... *
+2018-04-26 15:23:49,984 INFO     - * Running setup_module method in test_post_startup_shutdown... *
+2018-04-26 15:23:49,984 INFO     - * Running setup_module method in test_post_startup_shutdown... *
+2018-04-26 15:23:49,984 INFO     - Opening yaml file
+2018-04-26 15:23:49,984 INFO     - Opening yaml file
+2018-04-26 15:23:49,984 INFO     - Opening yaml file
+2018-04-26 15:23:49,986 INFO     - Platform: darwin
+2018-04-26 15:23:49,986 INFO     - Platform: darwin
+2018-04-26 15:23:49,986 INFO     - Platform: darwin
+2018-04-26 15:23:49,986 INFO     - Platform: darwin
+2018-04-26 15:23:49,987 INFO     - * Exiting setup_module method in test_post_startup_shutdown... *
+2018-04-26 15:23:49,987 INFO     - * Exiting setup_module method in test_post_startup_shutdown... *
+2018-04-26 15:23:49,987 INFO     - * Exiting setup_module method in test_post_startup_shutdown... *
+2018-04-26 15:23:49,987 INFO     - * Exiting setup_module method in test_post_startup_shutdown... *
+2018-04-26 15:23:49,987 INFO     - ** Running setup_function method **
+2018-04-26 15:23:49,987 INFO     - ** Running setup_function method **
+2018-04-26 15:23:49,987 INFO     - ** Running setup_function method **
+2018-04-26 15:23:49,987 INFO     - ** Running setup_function method **
+2018-04-26 15:23:49,987 INFO     - Opening yaml file
+2018-04-26 15:23:49,987 INFO     - Opening yaml file
+2018-04-26 15:23:49,987 INFO     - Opening yaml file
+2018-04-26 15:23:49,987 INFO     - Opening yaml file
+2018-04-26 15:23:49,988 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:23:49,988 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:23:49,988 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:23:49,988 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-26 15:23:49,989 INFO     - Running application
+2018-04-26 15:23:49,989 INFO     - Running application
+2018-04-26 15:23:49,989 INFO     - Running application
+2018-04-26 15:23:49,989 INFO     - Running application
+2018-04-26 15:23:49,992 INFO     - Launching application success
+2018-04-26 15:23:49,992 INFO     - Launching application success
+2018-04-26 15:23:49,992 INFO     - Launching application success
+2018-04-26 15:23:49,992 INFO     - Launching application success
+2018-04-26 15:23:49,992 INFO     - ** Exiting setup_function method **
+2018-04-26 15:23:49,992 INFO     - ** Exiting setup_function method **
+2018-04-26 15:23:49,992 INFO     - ** Exiting setup_function method **
+2018-04-26 15:23:49,992 INFO     - ** Exiting setup_function method **
+2018-04-26 15:23:49,994 INFO     - *** Starting concurrent test calls with shutdown call ***
+2018-04-26 15:23:49,994 INFO     - *** Starting concurrent test calls with shutdown call ***
+2018-04-26 15:23:49,994 INFO     - *** Starting concurrent test calls with shutdown call ***
+2018-04-26 15:23:49,994 INFO     - *** Starting concurrent test calls with shutdown call ***
+2018-04-26 15:23:49,997 INFO     - Calling shutdown in the middle of the concurrent requests
+2018-04-26 15:23:49,997 INFO     - Calling shutdown in the middle of the concurrent requests
+2018-04-26 15:23:49,997 INFO     - Calling shutdown in the middle of the concurrent requests
+2018-04-26 15:23:49,998 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-26 15:23:49,997 INFO     - Calling shutdown in the middle of the concurrent requests
+2018-04-26 15:23:49,998 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-26 15:23:49,998 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-26 15:23:49,998 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-26 15:23:49,998 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-26 15:23:49,998 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-26 15:23:49,998 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-26 15:23:49,998 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-26 15:23:49,998 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-26 15:23:49,998 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-26 15:23:49,998 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-26 15:23:49,998 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-26 15:23:49,998 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-26 15:23:49,999 INFO     - POST URL call for shutdown: http://localhost:8088/hash/
+2018-04-26 15:23:49,998 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-26 15:23:49,999 INFO     - POST URL call for shutdown: http://localhost:8088/hash/
+2018-04-26 15:23:49,999 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-26 15:23:49,998 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-26 15:23:49,999 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-26 15:23:49,999 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-26 15:23:49,999 INFO     - POST URL call for shutdown: http://localhost:8088/hash/
+2018-04-26 15:23:49,998 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-26 15:23:49,999 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-26 15:23:49,999 INFO     - POST URL call for shutdown: http://localhost:8088/hash/
+2018-04-26 15:23:49,999 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-26 15:23:49,999 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-26 15:23:49,999 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-26 15:23:49,999 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-26 15:23:49,999 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-26 15:23:49,999 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-26 15:23:49,999 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-26 15:23:50,000 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-26 15:23:49,999 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-26 15:23:49,999 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-26 15:23:49,999 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-26 15:23:50,000 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-26 15:23:49,999 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-26 15:23:50,000 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-26 15:23:49,999 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-26 15:23:50,000 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-26 15:23:50,028 INFO     - Status Code from POST REST call from query parameter: 503 ,{'password': 'concurrent3'}
+2018-04-26 15:23:50,028 INFO     - Status Code from POST REST call from query parameter: 503 ,{'password': 'concurrent3'}
+2018-04-26 15:23:50,028 INFO     - Status Code from POST REST call from query parameter: 503 ,{'password': 'concurrent3'}
+2018-04-26 15:23:50,028 INFO     - Status Code from POST REST call from query parameter: 503 ,{'password': 'concurrent3'}
+2018-04-26 15:23:50,028 INFO     - POST REST response (if not int): Service Unavailable
+
+2018-04-26 15:23:50,028 INFO     - POST REST response (if not int): Service Unavailable
+
+2018-04-26 15:23:50,028 INFO     - POST REST response (if not int): Service Unavailable
+
+2018-04-26 15:23:50,028 INFO     - POST REST response (if not int): Service Unavailable
+
+2018-04-26 15:23:50,029 INFO     - POST REST Request elapsed time: 0
+2018-04-26 15:23:50,029 INFO     - POST REST Request elapsed time: 0
+2018-04-26 15:23:50,029 INFO     - POST REST Request elapsed time: 0
+2018-04-26 15:23:50,029 INFO     - POST REST Request elapsed time: 0
+2018-04-26 15:23:50,029 INFO     - POST REST Request elapsed time (microseconds): 17059
+2018-04-26 15:23:50,029 INFO     - POST REST Request elapsed time (microseconds): 17059
+2018-04-26 15:23:50,029 INFO     - POST REST Request elapsed time (microseconds): 17059
+2018-04-26 15:23:50,029 INFO     - POST REST Request elapsed time (microseconds): 17059
+2018-04-26 15:23:50,029 INFO     - POST REST response code: 503
+2018-04-26 15:23:50,029 INFO     - POST REST response code: 503
+2018-04-26 15:23:50,029 INFO     - POST REST response code: 503
+2018-04-26 15:23:50,029 INFO     - POST REST response code: 503
+2018-04-26 15:23:55,010 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent0'}
+2018-04-26 15:23:55,010 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent0'}
+2018-04-26 15:23:55,010 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent0'}
+2018-04-26 15:23:55,010 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent0'}
+2018-04-26 15:23:55,011 INFO     - POST REST int response: 1
+2018-04-26 15:23:55,011 INFO     - POST REST int response: 1
+2018-04-26 15:23:55,011 INFO     - POST REST int response: 1
+2018-04-26 15:23:55,011 INFO     - POST REST int response: 1
+2018-04-26 15:23:55,011 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,011 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,011 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,011 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,011 INFO     - POST REST Request elapsed time (microseconds): 6475
+2018-04-26 15:23:55,011 INFO     - POST REST Request elapsed time (microseconds): 6475
+2018-04-26 15:23:55,011 INFO     - POST REST Request elapsed time (microseconds): 6475
+2018-04-26 15:23:55,011 INFO     - POST REST Request elapsed time (microseconds): 6475
+2018-04-26 15:23:55,012 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,012 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,012 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,012 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,013 INFO     - GET REST call concurrent response (or shutdown response): 1
+2018-04-26 15:23:55,013 INFO     - GET REST call concurrent response (or shutdown response): 1
+2018-04-26 15:23:55,013 INFO     - GET REST call concurrent response (or shutdown response): 1
+2018-04-26 15:23:55,013 INFO     - GET REST call concurrent response (or shutdown response): 1
+2018-04-26 15:23:55,014 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent1'}
+2018-04-26 15:23:55,014 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent1'}
+2018-04-26 15:23:55,014 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent1'}
+2018-04-26 15:23:55,014 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent1'}
+2018-04-26 15:23:55,014 INFO     - POST REST int response: 2
+2018-04-26 15:23:55,014 INFO     - POST REST int response: 2
+2018-04-26 15:23:55,014 INFO     - POST REST int response: 2
+2018-04-26 15:23:55,014 INFO     - POST REST int response: 2
+2018-04-26 15:23:55,014 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,014 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,014 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,014 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,015 INFO     - POST REST Request elapsed time (microseconds): 9249
+2018-04-26 15:23:55,015 INFO     - POST REST Request elapsed time (microseconds): 9249
+2018-04-26 15:23:55,015 INFO     - POST REST Request elapsed time (microseconds): 9249
+2018-04-26 15:23:55,015 INFO     - POST REST Request elapsed time (microseconds): 9249
+2018-04-26 15:23:55,015 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,015 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,015 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,015 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,016 INFO     - GET REST call concurrent response (or shutdown response): 2
+2018-04-26 15:23:55,016 INFO     - GET REST call concurrent response (or shutdown response): 2
+2018-04-26 15:23:55,016 INFO     - GET REST call concurrent response (or shutdown response): 2
+2018-04-26 15:23:55,016 INFO     - GET REST call concurrent response (or shutdown response): 2
+2018-04-26 15:23:55,021 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent2'}
+2018-04-26 15:23:55,021 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent2'}
+2018-04-26 15:23:55,021 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent2'}
+2018-04-26 15:23:55,021 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent2'}
+2018-04-26 15:23:55,022 INFO     - POST REST int response: 3
+2018-04-26 15:23:55,022 INFO     - POST REST int response: 3
+2018-04-26 15:23:55,022 INFO     - POST REST int response: 3
+2018-04-26 15:23:55,022 INFO     - POST REST int response: 3
+2018-04-26 15:23:55,022 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,022 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,022 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,022 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,022 INFO     - POST REST Request elapsed time (microseconds): 11427
+2018-04-26 15:23:55,022 INFO     - POST REST Request elapsed time (microseconds): 11427
+2018-04-26 15:23:55,022 INFO     - POST REST Request elapsed time (microseconds): 11427
+2018-04-26 15:23:55,022 INFO     - POST REST Request elapsed time (microseconds): 11427
+2018-04-26 15:23:55,023 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,023 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,023 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,023 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,024 INFO     - GET REST call concurrent response (or shutdown response): 3
+2018-04-26 15:23:55,024 INFO     - GET REST call concurrent response (or shutdown response): 3
+2018-04-26 15:23:55,024 INFO     - GET REST call concurrent response (or shutdown response): 3
+2018-04-26 15:23:55,024 INFO     - GET REST call concurrent response (or shutdown response): 3
+2018-04-26 15:23:55,024 INFO     - GET REST call concurrent response (or shutdown response): shutdown scenario where nothing returned
+2018-04-26 15:23:55,024 INFO     - GET REST call concurrent response (or shutdown response): shutdown scenario where nothing returned
+2018-04-26 15:23:55,024 INFO     - GET REST call concurrent response (or shutdown response): shutdown scenario where nothing returned
+2018-04-26 15:23:55,024 INFO     - GET REST call concurrent response (or shutdown response): shutdown scenario where nothing returned
+2018-04-26 15:23:55,024 INFO     - GET REST call concurrent response (or shutdown response): 
+2018-04-26 15:23:55,024 INFO     - GET REST call concurrent response (or shutdown response): 
+2018-04-26 15:23:55,024 INFO     - GET REST call concurrent response (or shutdown response): 
+2018-04-26 15:23:55,024 INFO     - GET REST call concurrent response (or shutdown response): 
+2018-04-26 15:23:55,032 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent9'}
+2018-04-26 15:23:55,032 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent9'}
+2018-04-26 15:23:55,032 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent9'}
+2018-04-26 15:23:55,032 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent9'}
+2018-04-26 15:23:55,032 INFO     - POST REST int response: 4
+2018-04-26 15:23:55,032 INFO     - POST REST int response: 4
+2018-04-26 15:23:55,032 INFO     - POST REST int response: 4
+2018-04-26 15:23:55,032 INFO     - POST REST int response: 4
+2018-04-26 15:23:55,033 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,033 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,033 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,033 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,033 INFO     - POST REST Request elapsed time (microseconds): 9967
+2018-04-26 15:23:55,033 INFO     - POST REST Request elapsed time (microseconds): 9967
+2018-04-26 15:23:55,033 INFO     - POST REST Request elapsed time (microseconds): 9967
+2018-04-26 15:23:55,033 INFO     - POST REST Request elapsed time (microseconds): 9967
+2018-04-26 15:23:55,033 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,033 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,033 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,033 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,034 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent8'}
+2018-04-26 15:23:55,034 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent8'}
+2018-04-26 15:23:55,034 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent8'}
+2018-04-26 15:23:55,034 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent8'}
+2018-04-26 15:23:55,034 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent6'}
+2018-04-26 15:23:55,034 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent6'}
+2018-04-26 15:23:55,034 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent6'}
+2018-04-26 15:23:55,034 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent6'}
+2018-04-26 15:23:55,035 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent7'}
+2018-04-26 15:23:55,035 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent7'}
+2018-04-26 15:23:55,036 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent5'}
+2018-04-26 15:23:55,035 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent7'}
+2018-04-26 15:23:55,035 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent7'}
+2018-04-26 15:23:55,036 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent5'}
+2018-04-26 15:23:55,036 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent5'}
+2018-04-26 15:23:55,036 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'concurrent5'}
+2018-04-26 15:23:55,037 INFO     - POST REST int response: 7
+2018-04-26 15:23:55,037 INFO     - POST REST int response: 6
+2018-04-26 15:23:55,037 INFO     - POST REST int response: 7
+2018-04-26 15:23:55,037 INFO     - POST REST int response: 5
+2018-04-26 15:23:55,037 INFO     - POST REST int response: 7
+2018-04-26 15:23:55,037 INFO     - POST REST int response: 6
+2018-04-26 15:23:55,037 INFO     - POST REST int response: 7
+2018-04-26 15:23:55,037 INFO     - POST REST int response: 5
+2018-04-26 15:23:55,037 INFO     - POST REST int response: 6
+2018-04-26 15:23:55,037 INFO     - POST REST int response: 6
+2018-04-26 15:23:55,038 INFO     - POST REST int response: 8
+2018-04-26 15:23:55,037 INFO     - POST REST int response: 5
+2018-04-26 15:23:55,038 INFO     - POST REST int response: 8
+2018-04-26 15:23:55,039 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,037 INFO     - POST REST int response: 5
+2018-04-26 15:23:55,038 INFO     - POST REST int response: 8
+2018-04-26 15:23:55,039 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,038 INFO     - POST REST int response: 8
+2018-04-26 15:23:55,039 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,039 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,039 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,039 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,039 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,039 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,040 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,039 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,039 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,040 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,039 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,039 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,040 INFO     - POST REST Request elapsed time (microseconds): 11429
+2018-04-26 15:23:55,040 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,040 INFO     - POST REST Request elapsed time (microseconds): 11429
+2018-04-26 15:23:55,040 INFO     - POST REST Request elapsed time: 5
+2018-04-26 15:23:55,040 INFO     - POST REST Request elapsed time (microseconds): 11108
+2018-04-26 15:23:55,040 INFO     - POST REST Request elapsed time (microseconds): 11429
+2018-04-26 15:23:55,040 INFO     - POST REST Request elapsed time (microseconds): 11108
+2018-04-26 15:23:55,041 INFO     - POST REST Request elapsed time (microseconds): 10567
+2018-04-26 15:23:55,040 INFO     - POST REST Request elapsed time (microseconds): 11429
+2018-04-26 15:23:55,040 INFO     - POST REST Request elapsed time (microseconds): 11108
+2018-04-26 15:23:55,041 INFO     - POST REST Request elapsed time (microseconds): 10692
+2018-04-26 15:23:55,041 INFO     - POST REST Request elapsed time (microseconds): 10567
+2018-04-26 15:23:55,040 INFO     - POST REST Request elapsed time (microseconds): 11108
+2018-04-26 15:23:55,041 INFO     - POST REST Request elapsed time (microseconds): 10692
+2018-04-26 15:23:55,041 INFO     - POST REST Request elapsed time (microseconds): 10567
+2018-04-26 15:23:55,042 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,041 INFO     - POST REST Request elapsed time (microseconds): 10567
+2018-04-26 15:23:55,042 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,042 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,042 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,042 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,041 INFO     - POST REST Request elapsed time (microseconds): 10692
+2018-04-26 15:23:55,042 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,041 INFO     - POST REST Request elapsed time (microseconds): 10692
+2018-04-26 15:23:55,042 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,042 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,042 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,043 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,043 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,042 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,042 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,043 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,042 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,043 INFO     - POST REST response code: 200
+2018-04-26 15:23:55,044 INFO     - GET REST call concurrent response (or shutdown response): 8
+2018-04-26 15:23:55,044 INFO     - GET REST call concurrent response (or shutdown response): 8
+2018-04-26 15:23:55,044 INFO     - GET REST call concurrent response (or shutdown response): 8
+2018-04-26 15:23:55,044 INFO     - GET REST call concurrent response (or shutdown response): 8
+2018-04-26 15:23:55,044 INFO     - GET REST call concurrent response (or shutdown response): 6
+2018-04-26 15:23:55,044 INFO     - GET REST call concurrent response (or shutdown response): 6
+2018-04-26 15:23:55,044 INFO     - GET REST call concurrent response (or shutdown response): 6
+2018-04-26 15:23:55,044 INFO     - GET REST call concurrent response (or shutdown response): 6
+2018-04-26 15:23:55,045 INFO     - GET REST call concurrent response (or shutdown response): 5
+2018-04-26 15:23:55,045 INFO     - GET REST call concurrent response (or shutdown response): 5
+2018-04-26 15:23:55,045 INFO     - GET REST call concurrent response (or shutdown response): 5
+2018-04-26 15:23:55,045 INFO     - GET REST call concurrent response (or shutdown response): 5
+2018-04-26 15:23:55,045 INFO     - GET REST call concurrent response (or shutdown response): 7
+2018-04-26 15:23:55,045 INFO     - GET REST call concurrent response (or shutdown response): 7
+2018-04-26 15:23:55,045 INFO     - GET REST call concurrent response (or shutdown response): 7
+2018-04-26 15:23:55,045 INFO     - GET REST call concurrent response (or shutdown response): 7
+2018-04-26 15:23:55,045 INFO     - GET REST call concurrent response (or shutdown response): 4
+2018-04-26 15:23:55,045 INFO     - GET REST call concurrent response (or shutdown response): 4
+2018-04-26 15:23:55,045 INFO     - GET REST call concurrent response (or shutdown response): 4
+2018-04-26 15:23:55,045 INFO     - GET REST call concurrent response (or shutdown response): 4
+2018-04-26 15:23:55,045 INFO     - *** Finished concurrent test calls with shutdown call ***
+2018-04-26 15:23:55,045 INFO     - *** Finished concurrent test calls with shutdown call ***
+2018-04-26 15:23:55,045 INFO     - *** Finished concurrent test calls with shutdown call ***
+2018-04-26 15:23:55,045 INFO     - *** Finished concurrent test calls with shutdown call ***
+2018-04-26 15:23:55,046 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:55,046 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:55,046 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:55,046 INFO     - ** Running teardown_function method **
+2018-04-26 15:23:55,047 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:55,047 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:55,047 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:55,047 INFO     - ** Exiting teardown_function method **
+2018-04-26 15:23:55,047 INFO     - * Running teardown_module method in test_post_startup_shutdown... *
+2018-04-26 15:23:55,047 INFO     - * Running teardown_module method in test_post_startup_shutdown... *
+2018-04-26 15:23:55,047 INFO     - * Running teardown_module method in test_post_startup_shutdown... *
+2018-04-26 15:23:55,047 INFO     - * Running teardown_module method in test_post_startup_shutdown... *
+2018-04-26 15:23:55,047 INFO     - * Exiting teardown_module method in test_post_startup_shutdown... *
+2018-04-26 15:23:55,047 INFO     - * Exiting teardown_module method in test_post_startup_shutdown... *
+2018-04-26 15:23:55,047 INFO     - * Exiting teardown_module method in test_post_startup_shutdown... *
+2018-04-26 15:23:55,047 INFO     - * Exiting teardown_module method in test_post_startup_shutdown... *

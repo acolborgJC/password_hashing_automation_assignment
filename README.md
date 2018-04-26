@@ -13,7 +13,7 @@ I could test encompassing two POST and two GET requests.
 
 This was developed on Python 3.6.5
 
-PyCharm 2018.1 was used to develop the autmation suite
+PyCharm 2018.1 was used to develop the automation suite
 
 Automation was tested on macOS High Sierra
 
@@ -51,6 +51,10 @@ I detailed test cases I ran manually before developing the automation
 I briefly listed out failures I encountered
 
 As of 4/26/18 there are 16 test cases that are automated
+
+## Latest Test Results
+
+5 failed, 9 passed, 2 skipped in 85.74 seconds 
 
 ## Todos
 
