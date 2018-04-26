@@ -1,5 +1,7 @@
 {
   "automation_tests/test_password_hashing_app.py::test_get_password_hash_call": true,
-  "automation_tests/test_password_hashing_app.py::test_multiple_post_password_hash_calls": true,
-  "automation_tests/test_password_hashing_app.py::test_post_password_hash_call": true
+  "automation_tests/test_password_hashing_app.py::test_parameterized_post_password_hash_calls[--400]": true,
+  "automation_tests/test_password_hashing_app.py::test_parameterized_post_password_hash_calls[-password1-400]": true,
+  "automation_tests/test_password_hashing_app.py::test_parameterized_post_password_hash_calls[boguskey-password1-400]": true,
+  "automation_tests/test_password_hashing_app.py::test_parameterized_post_password_hash_calls[password--400]": true
 }

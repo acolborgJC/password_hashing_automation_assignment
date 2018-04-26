@@ -1,0 +1,44 @@
+What to test:
+
+1. Test SHA512 conversion
+2. Test output to base64
+3. Test with openssl
+    1. Encode
+        1. echo -n "angrymonkey" | openssl dgst -sha512 -binary | openssl base64
+    2. Decode
+        1. openssl base64 -d -base64 -A -in AngryMonkey.txt | xxd -p
+        2. echo -n NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== | openssl base64 -d -base64 -A | xxd -p
+
+Passed tests:
+
+1. string length of SHA512 hash should be 128
+2. string length of base64 encoding is 88
+
+Tests that didn’t pass:
+
+Test encoded SHA512 should be 88 characters long
+
+bug #1 XPOST doesn’t return the identifier immediately
+
+bug #2 XPOST you can use blank password. Shouldn’t be allowed although SHA512
+
+bug #3 XPOST I can use ‘{“blah”:””}’ - Needs to be format of password
+
+bug#4 XPOST doesn’t gracefully shutdown and serve the request
+
+bug#5 XPOST no maintaining of current keys. shutdown removes all stored entries
+
+bug#6 XPOST/GET No salt used for sha512 base64 encoded (SHA512 + base64 encoding)
+
+	could be cracked with dictionary call possibly (should preface pword with a string)
+
+bug#7 No authentication/authorization step when calling the REST endpoints (totally open)
+
+bug#8 JSON response not returned from GET request, just a numbe
+
+bug#9 What’s the point of shutdown endpoint when nothing is saved?
+
+bug#10 2018/04/25 00:05:58 Shutdown signal recieved
+2018/04/25 00:05:58 Shutting down
+
+bug#11 AverageTime seems off based off my elapsed time tests

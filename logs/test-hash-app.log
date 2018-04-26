@@ -1,3 +1,890 @@
-2018-04-24 18:41:00,830 INFO     - Platform: darwin
-2018-04-24 18:42:03,237 INFO     - Platform: darwin
-2018-04-24 18:43:19,017 INFO     - Platform: darwin
+2018-04-25 21:30:41,339 INFO     - Platform: darwin
+2018-04-25 21:30:41,339 INFO     - Exiting setup_module method in test_post_password...
+2018-04-25 21:30:41,339 INFO     - Running setup_function method
+2018-04-25 21:30:41,339 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-25 21:30:41,340 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-25 21:30:41,352 INFO     - Got exception trying to shutdown
+2018-04-25 21:30:41,352 INFO     - Running application
+2018-04-25 21:30:41,363 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-25 21:30:41,363 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-25 21:30:41,363 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-25 21:30:41,364 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-25 21:30:41,364 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent4'}
+2018-04-25 21:30:41,364 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-25 21:30:41,364 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-25 21:30:41,364 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-25 21:30:41,364 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-25 21:30:41,364 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-25 21:30:46,402 INFO     - Status Code from POST call: 200
+2018-04-25 21:30:46,403 INFO     - Status Code from POST call: 200
+2018-04-25 21:30:46,403 INFO     - POST JSON response: 2
+2018-04-25 21:30:46,403 INFO     - POST JSON response: 1
+2018-04-25 21:30:46,403 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:30:46,404 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:30:46,404 INFO     - Status Code from POST call: 200
+2018-04-25 21:30:46,405 INFO     - POST JSON response: 3
+2018-04-25 21:30:46,405 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:30:46,410 INFO     - Status Code from POST call: 200
+2018-04-25 21:30:46,411 INFO     - Status Code from POST call: 200
+2018-04-25 21:30:46,411 INFO     - POST JSON response: 6
+2018-04-25 21:30:46,413 INFO     - Status Code from POST call: 200
+2018-04-25 21:30:46,413 INFO     - Status Code from POST call: 200
+2018-04-25 21:30:46,414 INFO     - Status Code from POST call: 200
+2018-04-25 21:30:46,414 INFO     - Status Code from POST call: 200
+2018-04-25 21:30:46,415 INFO     - Status Code from POST call: 200
+2018-04-25 21:30:46,415 INFO     - POST JSON response: 7
+2018-04-25 21:30:46,415 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:30:46,415 INFO     - POST JSON response: 8
+2018-04-25 21:30:46,416 INFO     - POST JSON response: 5
+2018-04-25 21:30:46,416 INFO     - POST JSON response: 4
+2018-04-25 21:30:46,416 INFO     - POST JSON response: 9
+2018-04-25 21:30:46,416 INFO     - POST JSON response: 10
+2018-04-25 21:30:46,417 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:30:46,417 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:30:46,417 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:30:46,418 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:30:46,418 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:30:46,418 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:30:46,495 INFO     - Running teardown_function method
+2018-04-25 21:30:46,502 INFO     - Running teardown_module method
+2018-04-25 21:30:46,502 INFO     - Exiting teardown_module method
+2018-04-25 21:32:01,486 INFO     - Platform: darwin
+2018-04-25 21:32:01,486 INFO     - Exiting setup_module method in test_post_password...
+2018-04-25 21:32:01,487 INFO     - Running setup_function method
+2018-04-25 21:32:01,487 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-25 21:32:01,487 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-25 21:32:01,500 INFO     - Got exception trying to shutdown
+2018-04-25 21:32:01,500 INFO     - Running application
+2018-04-25 21:32:01,512 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-25 21:32:01,512 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-25 21:32:01,512 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-25 21:32:01,512 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-25 21:32:01,512 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent4'}
+2018-04-25 21:32:01,512 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-25 21:32:01,512 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-25 21:32:01,512 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-25 21:32:01,513 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-25 21:32:01,513 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-25 21:32:06,528 INFO     - Status Code from POST call: 200
+2018-04-25 21:32:06,529 INFO     - Status Code from POST call: 200
+2018-04-25 21:32:06,529 INFO     - POST JSON response: 1
+2018-04-25 21:32:06,529 INFO     - POST JSON response: 2
+2018-04-25 21:32:06,529 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:32:06,529 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:32:06,530 INFO     - Call response: 1
+2018-04-25 21:32:06,538 INFO     - Status Code from POST call: 200
+2018-04-25 21:32:06,539 INFO     - Status Code from POST call: 200
+2018-04-25 21:32:06,539 INFO     - POST JSON response: 4
+2018-04-25 21:32:06,540 INFO     - Status Code from POST call: 200
+2018-04-25 21:32:06,540 INFO     - Status Code from POST call: 200
+2018-04-25 21:32:06,541 INFO     - POST JSON response: 5
+2018-04-25 21:32:06,541 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:32:06,541 INFO     - POST JSON response: 3
+2018-04-25 21:32:06,541 INFO     - POST JSON response: 6
+2018-04-25 21:32:06,541 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:32:06,542 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:32:06,542 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:32:06,542 INFO     - Call response: 3
+2018-04-25 21:32:06,543 INFO     - Call response: 4
+2018-04-25 21:32:06,543 INFO     - Call response: 2
+2018-04-25 21:32:06,543 INFO     - Call response: 5
+2018-04-25 21:32:06,548 INFO     - Status Code from POST call: 200
+2018-04-25 21:32:06,549 INFO     - Status Code from POST call: 200
+2018-04-25 21:32:06,549 INFO     - POST JSON response: 10
+2018-04-25 21:32:06,549 INFO     - Status Code from POST call: 200
+2018-04-25 21:32:06,549 INFO     - Status Code from POST call: 200
+2018-04-25 21:32:06,550 INFO     - POST JSON response: 9
+2018-04-25 21:32:06,550 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:32:06,550 INFO     - POST JSON response: 7
+2018-04-25 21:32:06,550 INFO     - POST JSON response: 8
+2018-04-25 21:32:06,550 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:32:06,551 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:32:06,551 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:32:06,551 INFO     - Call response: 8
+2018-04-25 21:32:06,551 INFO     - Call response: 6
+2018-04-25 21:32:06,552 INFO     - Call response: 7
+2018-04-25 21:32:06,552 INFO     - Call response: 9
+2018-04-25 21:32:06,552 INFO     - Call response: 10
+2018-04-25 21:32:06,553 INFO     - Running teardown_function method
+2018-04-25 21:32:06,563 INFO     - Running teardown_module method
+2018-04-25 21:32:06,563 INFO     - Exiting teardown_module method
+2018-04-25 21:33:18,315 INFO     - Platform: darwin
+2018-04-25 21:33:18,315 INFO     - Exiting setup_module method in test_post_password...
+2018-04-25 21:33:18,315 INFO     - Running setup_function method
+2018-04-25 21:33:18,315 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-25 21:33:18,315 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-25 21:33:18,329 INFO     - Got exception trying to shutdown
+2018-04-25 21:33:18,329 INFO     - Running application
+2018-04-25 21:33:18,339 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-25 21:33:18,339 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-25 21:33:18,339 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-25 21:33:18,340 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-25 21:33:18,340 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent4'}
+2018-04-25 21:33:18,340 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-25 21:33:18,340 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-25 21:33:18,340 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-25 21:33:18,340 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-25 21:33:18,340 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-25 21:33:23,359 INFO     - Status Code from POST call: 200
+2018-04-25 21:33:23,359 INFO     - POST JSON response: 1
+2018-04-25 21:33:23,359 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:33:23,360 INFO     - Status Code from POST call: 200
+2018-04-25 21:33:23,361 INFO     - POST JSON response: 2
+2018-04-25 21:33:23,361 INFO     - GET REST call concurrent response: 1
+2018-04-25 21:33:23,361 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:33:23,361 INFO     - GET REST call concurrent response: 2
+2018-04-25 21:33:23,375 INFO     - Status Code from POST call: 200
+2018-04-25 21:33:23,375 INFO     - Status Code from POST call: 200
+2018-04-25 21:33:23,377 INFO     - POST JSON response: 4
+2018-04-25 21:33:23,377 INFO     - Status Code from POST call: 200
+2018-04-25 21:33:23,377 INFO     - Status Code from POST call: 200
+2018-04-25 21:33:23,377 INFO     - Status Code from POST call: 200
+2018-04-25 21:33:23,377 INFO     - Status Code from POST call: 200
+2018-04-25 21:33:23,377 INFO     - POST JSON response: 3
+2018-04-25 21:33:23,378 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:33:23,378 INFO     - Status Code from POST call: 200
+2018-04-25 21:33:23,378 INFO     - POST JSON response: 5
+2018-04-25 21:33:23,378 INFO     - POST JSON response: 8
+2018-04-25 21:33:23,378 INFO     - POST JSON response: 7
+2018-04-25 21:33:23,379 INFO     - POST JSON response: 6
+2018-04-25 21:33:23,379 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:33:23,379 INFO     - POST JSON response: 9
+2018-04-25 21:33:23,379 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:33:23,379 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:33:23,379 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:33:23,379 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:33:23,380 INFO     - Status Code from POST call: 200
+2018-04-25 21:33:23,380 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:33:23,380 INFO     - GET REST call concurrent response: 8
+2018-04-25 21:33:23,381 INFO     - POST JSON response: 10
+2018-04-25 21:33:23,381 INFO     - GET REST call concurrent response: 5
+2018-04-25 21:33:23,381 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:33:23,381 INFO     - GET REST call concurrent response: 3
+2018-04-25 21:33:23,382 INFO     - GET REST call concurrent response: 7
+2018-04-25 21:33:23,382 INFO     - GET REST call concurrent response: 6
+2018-04-25 21:33:23,382 INFO     - GET REST call concurrent response: 4
+2018-04-25 21:33:23,382 INFO     - GET REST call concurrent response: 9
+2018-04-25 21:33:23,382 INFO     - GET REST call concurrent response: 10
+2018-04-25 21:33:23,383 INFO     - Running teardown_function method
+2018-04-25 21:33:23,390 INFO     - Running teardown_module method
+2018-04-25 21:33:23,390 INFO     - Exiting teardown_module method
+2018-04-25 21:34:50,401 INFO     - Platform: darwin
+2018-04-25 21:34:50,401 INFO     - Exiting setup_module method in test_post_password...
+2018-04-25 21:34:50,402 INFO     - Running setup_function method
+2018-04-25 21:34:50,402 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-25 21:34:50,402 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-25 21:34:50,416 INFO     - Got exception trying to shutdown
+2018-04-25 21:34:50,417 INFO     - Running application
+2018-04-25 21:34:50,422 INFO     - *** Starting concurrent test calls ***
+2018-04-25 21:34:50,427 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-25 21:34:50,427 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-25 21:34:50,427 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-25 21:34:50,427 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-25 21:34:50,428 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent4'}
+2018-04-25 21:34:50,428 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-25 21:34:50,428 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-25 21:34:50,428 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-25 21:34:50,428 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-25 21:34:50,428 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-25 21:34:55,447 INFO     - Status Code from POST call: 200
+2018-04-25 21:34:55,448 INFO     - Status Code from POST call: 200
+2018-04-25 21:34:55,448 INFO     - Status Code from POST call: 200
+2018-04-25 21:34:55,449 INFO     - Status Code from POST call: 200
+2018-04-25 21:34:55,450 INFO     - Status Code from POST call: 200
+2018-04-25 21:34:55,450 INFO     - POST JSON response: 1
+2018-04-25 21:34:55,450 INFO     - Status Code from POST call: 200
+2018-04-25 21:34:55,452 INFO     - Status Code from POST call: 200
+2018-04-25 21:34:55,452 INFO     - POST JSON response: 2
+2018-04-25 21:34:55,452 INFO     - Status Code from POST call: 200
+2018-04-25 21:34:55,452 INFO     - POST JSON response: 3
+2018-04-25 21:34:55,452 INFO     - POST JSON response: 5
+2018-04-25 21:34:55,452 INFO     - POST JSON response: 6
+2018-04-25 21:34:55,452 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:34:55,452 INFO     - POST JSON response: 4
+2018-04-25 21:34:55,453 INFO     - POST JSON response: 8
+2018-04-25 21:34:55,453 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:34:55,453 INFO     - POST JSON response: 7
+2018-04-25 21:34:55,453 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:34:55,453 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:34:55,454 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:34:55,455 INFO     - Status Code from POST call: 200
+2018-04-25 21:34:55,455 INFO     - Status Code from POST call: 200
+2018-04-25 21:34:55,456 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:34:55,456 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:34:55,456 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:34:55,457 INFO     - GET REST call concurrent response: 3
+2018-04-25 21:34:55,457 INFO     - POST JSON response: 9
+2018-04-25 21:34:55,457 INFO     - POST JSON response: 10
+2018-04-25 21:34:55,458 INFO     - GET REST call concurrent response: 2
+2018-04-25 21:34:55,458 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:34:55,458 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:34:55,459 INFO     - GET REST call concurrent response: 1
+2018-04-25 21:34:55,459 INFO     - GET REST call concurrent response: 4
+2018-04-25 21:34:55,459 INFO     - GET REST call concurrent response: 5
+2018-04-25 21:34:55,459 INFO     - GET REST call concurrent response: 6
+2018-04-25 21:34:55,460 INFO     - GET REST call concurrent response: 7
+2018-04-25 21:34:55,460 INFO     - GET REST call concurrent response: 8
+2018-04-25 21:34:55,460 INFO     - GET REST call concurrent response: 9
+2018-04-25 21:34:55,460 INFO     - GET REST call concurrent response: 10
+2018-04-25 21:34:55,460 INFO     - *** Finished concurrent test calls ***
+2018-04-25 21:34:55,461 INFO     - Running teardown_function method
+2018-04-25 21:34:55,470 INFO     - Running teardown_module method
+2018-04-25 21:34:55,470 INFO     - Exiting teardown_module method
+2018-04-25 21:40:09,491 INFO     - Platform: darwin
+2018-04-25 21:40:09,492 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-25 21:40:09,492 INFO     - ** Running setup_function method **
+2018-04-25 21:40:09,492 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-25 21:40:09,492 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-25 21:40:09,508 INFO     - Got exception trying to shutdown
+2018-04-25 21:40:09,508 INFO     - Running application
+2018-04-25 21:40:09,511 INFO     - ** Exiting setup_function method **
+2018-04-25 21:40:09,513 INFO     - *** Starting concurrent test calls ***
+2018-04-25 21:40:09,519 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-25 21:40:09,519 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-25 21:40:09,519 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-25 21:40:09,519 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-25 21:40:09,519 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent4'}
+2018-04-25 21:40:09,519 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-25 21:40:09,519 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-25 21:40:09,519 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-25 21:40:09,519 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-25 21:40:09,519 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-25 21:40:09,836 INFO     - ** Running teardown_function method **
+2018-04-25 21:40:09,836 INFO     - ** Exiting teardown_function method **
+2018-04-25 21:40:09,846 INFO     - * Running teardown_module method *
+2018-04-25 21:40:09,846 INFO     - * Exiting teardown_module method *
+2018-04-25 21:40:46,821 INFO     - Platform: darwin
+2018-04-25 21:40:46,822 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-25 21:40:46,822 INFO     - ** Running setup_function method **
+2018-04-25 21:40:46,822 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-25 21:40:46,822 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-25 21:40:46,834 INFO     - Got exception trying to shutdown
+2018-04-25 21:40:46,834 INFO     - Running application
+2018-04-25 21:40:46,837 INFO     - ** Exiting setup_function method **
+2018-04-25 21:40:46,839 INFO     - *** Starting concurrent test calls ***
+2018-04-25 21:40:46,861 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-25 21:40:46,862 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-25 21:40:46,862 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-25 21:40:46,862 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-25 21:40:46,862 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent4'}
+2018-04-25 21:40:46,862 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-25 21:40:46,862 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-25 21:40:46,862 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-25 21:40:46,862 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-25 21:40:46,862 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-25 21:40:51,878 INFO     - Status Code from POST call: 200
+2018-04-25 21:40:51,878 INFO     - POST JSON response: 1
+2018-04-25 21:40:51,879 INFO     - Status Code from POST call: 200
+2018-04-25 21:40:51,879 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:40:51,879 INFO     - POST JSON response: 2
+2018-04-25 21:40:51,879 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:40:51,879 INFO     - GET REST call concurrent response: 1
+2018-04-25 21:40:51,880 INFO     - GET REST call concurrent response: 2
+2018-04-25 21:40:51,883 INFO     - Status Code from POST call: 200
+2018-04-25 21:40:51,883 INFO     - POST JSON response: 3
+2018-04-25 21:40:51,883 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:40:51,884 INFO     - GET REST call concurrent response: 3
+2018-04-25 21:40:51,884 INFO     - Status Code from POST call: 200
+2018-04-25 21:40:51,884 INFO     - POST JSON response: 4
+2018-04-25 21:40:51,885 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:40:51,895 INFO     - Status Code from POST call: 200
+2018-04-25 21:40:51,895 INFO     - Status Code from POST call: 200
+2018-04-25 21:40:51,895 INFO     - Status Code from POST call: 200
+2018-04-25 21:40:51,895 INFO     - Status Code from POST call: 200
+2018-04-25 21:40:51,896 INFO     - Status Code from POST call: 200
+2018-04-25 21:40:51,896 INFO     - Status Code from POST call: 200
+2018-04-25 21:40:51,896 INFO     - POST JSON response: 5
+2018-04-25 21:40:51,896 INFO     - POST JSON response: 6
+2018-04-25 21:40:51,897 INFO     - POST JSON response: 7
+2018-04-25 21:40:51,897 INFO     - POST JSON response: 9
+2018-04-25 21:40:51,897 INFO     - POST JSON response: 8
+2018-04-25 21:40:51,897 INFO     - POST JSON response: 10
+2018-04-25 21:40:51,897 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:40:51,898 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:40:51,898 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:40:51,898 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:40:51,898 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:40:51,898 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:40:51,899 INFO     - GET REST call concurrent response: 6
+2018-04-25 21:40:51,900 INFO     - GET REST call concurrent response: 7
+2018-04-25 21:40:51,900 INFO     - GET REST call concurrent response: 4
+2018-04-25 21:40:51,900 INFO     - GET REST call concurrent response: 5
+2018-04-25 21:40:51,900 INFO     - GET REST call concurrent response: 8
+2018-04-25 21:40:51,901 INFO     - GET REST call concurrent response: 9
+2018-04-25 21:40:51,901 INFO     - GET REST call concurrent response: 10
+2018-04-25 21:40:51,901 INFO     - *** Finished concurrent test calls ***
+2018-04-25 21:40:51,902 INFO     - ** Running teardown_function method **
+2018-04-25 21:40:51,902 INFO     - ** Exiting teardown_function method **
+2018-04-25 21:40:51,910 INFO     - * Running teardown_module method *
+2018-04-25 21:40:51,911 INFO     - * Exiting teardown_module method *
+2018-04-25 21:55:17,137 INFO     - Platform: darwin
+2018-04-25 21:55:17,137 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-25 21:55:17,137 INFO     - ** Running setup_function method **
+2018-04-25 21:55:17,137 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-25 21:55:17,137 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-25 21:55:17,151 INFO     - Got exception trying to shutdown
+2018-04-25 21:55:17,151 INFO     - Running application
+2018-04-25 21:55:17,155 INFO     - ** Exiting setup_function method **
+2018-04-25 21:55:17,157 INFO     - *** Starting concurrent test calls ***
+2018-04-25 21:55:17,164 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-25 21:55:17,164 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-25 21:55:17,164 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-25 21:55:17,164 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-25 21:55:17,164 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent4'}
+2018-04-25 21:55:17,164 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-25 21:55:17,164 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-25 21:55:17,164 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-25 21:55:17,165 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-25 21:55:17,165 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-25 21:55:17,528 INFO     - ** Running teardown_function method **
+2018-04-25 21:55:17,528 INFO     - ** Exiting teardown_function method **
+2018-04-25 21:55:17,538 INFO     - * Running teardown_module method *
+2018-04-25 21:55:17,538 INFO     - * Exiting teardown_module method *
+2018-04-25 21:55:31,361 INFO     - Platform: darwin
+2018-04-25 21:55:31,361 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-25 21:55:31,362 INFO     - ** Running setup_function method **
+2018-04-25 21:55:31,362 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-25 21:55:31,362 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-25 21:55:31,376 INFO     - Got exception trying to shutdown
+2018-04-25 21:55:31,376 INFO     - Running application
+2018-04-25 21:55:31,379 INFO     - ** Exiting setup_function method **
+2018-04-25 21:55:31,381 INFO     - *** Starting concurrent test calls ***
+2018-04-25 21:55:31,398 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-25 21:55:31,398 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-25 21:55:31,398 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-25 21:55:31,398 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-25 21:55:31,398 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent4'}
+2018-04-25 21:55:31,398 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-25 21:55:31,398 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-25 21:55:31,398 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-25 21:55:31,398 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-25 21:55:31,398 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-25 21:55:36,421 INFO     - Status Code from POST call: 200
+2018-04-25 21:55:36,421 INFO     - Status Code from POST call: 200
+2018-04-25 21:55:36,422 INFO     - Status Code from POST call: 200
+2018-04-25 21:55:36,422 INFO     - Status Code from POST call: 200
+2018-04-25 21:55:36,422 INFO     - POST JSON response: 3
+2018-04-25 21:55:36,423 INFO     - Status Code from POST call: 200
+2018-04-25 21:55:36,423 INFO     - POST JSON response: 4
+2018-04-25 21:55:36,423 INFO     - POST JSON response: 1
+2018-04-25 21:55:36,423 INFO     - POST JSON response: 2
+2018-04-25 21:55:36,423 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:55:36,423 INFO     - POST JSON response: 5
+2018-04-25 21:55:36,423 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:55:36,424 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:55:36,424 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:55:36,424 INFO     - POST JSON Request elapsed time (microseconds): 11783
+2018-04-25 21:55:36,424 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:55:36,424 INFO     - POST JSON Request elapsed time (microseconds): 12101
+2018-04-25 21:55:36,424 INFO     - POST JSON Request elapsed time (microseconds): 18362
+2018-04-25 21:55:36,424 INFO     - POST JSON Request elapsed time (microseconds): 19959
+2018-04-25 21:55:36,425 INFO     - POST JSON Request elapsed time (microseconds): 13741
+2018-04-25 21:55:36,426 INFO     - GET REST call concurrent response: 2
+2018-04-25 21:55:36,426 INFO     - GET REST call concurrent response: 1
+2018-04-25 21:55:36,426 INFO     - GET REST call concurrent response: 5
+2018-04-25 21:55:36,426 INFO     - GET REST call concurrent response: 3
+2018-04-25 21:55:36,431 INFO     - Status Code from POST call: 200
+2018-04-25 21:55:36,432 INFO     - Status Code from POST call: 200
+2018-04-25 21:55:36,432 INFO     - Status Code from POST call: 200
+2018-04-25 21:55:36,433 INFO     - Status Code from POST call: 200
+2018-04-25 21:55:36,433 INFO     - POST JSON response: 6
+2018-04-25 21:55:36,433 INFO     - POST JSON response: 7
+2018-04-25 21:55:36,433 INFO     - POST JSON response: 8
+2018-04-25 21:55:36,434 INFO     - POST JSON response: 9
+2018-04-25 21:55:36,434 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:55:36,435 INFO     - Status Code from POST call: 200
+2018-04-25 21:55:36,435 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:55:36,435 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:55:36,435 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:55:36,435 INFO     - POST JSON Request elapsed time (microseconds): 19286
+2018-04-25 21:55:36,435 INFO     - POST JSON response: 10
+2018-04-25 21:55:36,435 INFO     - POST JSON Request elapsed time (microseconds): 21861
+2018-04-25 21:55:36,436 INFO     - POST JSON Request elapsed time (microseconds): 17670
+2018-04-25 21:55:36,436 INFO     - POST JSON Request elapsed time (microseconds): 5252
+2018-04-25 21:55:36,436 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 21:55:36,436 INFO     - GET REST call concurrent response: 8
+2018-04-25 21:55:36,437 INFO     - POST JSON Request elapsed time (microseconds): 5979
+2018-04-25 21:55:36,437 INFO     - GET REST call concurrent response: 4
+2018-04-25 21:55:36,437 INFO     - GET REST call concurrent response: 6
+2018-04-25 21:55:36,437 INFO     - GET REST call concurrent response: 7
+2018-04-25 21:55:36,437 INFO     - GET REST call concurrent response: 9
+2018-04-25 21:55:36,437 INFO     - GET REST call concurrent response: 10
+2018-04-25 21:55:36,437 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-25 21:55:36,443 INFO     - *** Finished concurrent test calls ***
+2018-04-25 21:55:36,444 INFO     - ** Running teardown_function method **
+2018-04-25 21:55:36,444 INFO     - ** Exiting teardown_function method **
+2018-04-25 21:55:36,451 INFO     - * Running teardown_module method *
+2018-04-25 21:55:36,452 INFO     - * Exiting teardown_module method *
+2018-04-25 22:01:57,915 INFO     - Platform: darwin
+2018-04-25 22:01:57,916 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-25 22:01:57,916 INFO     - ** Running setup_function method **
+2018-04-25 22:01:57,916 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-25 22:01:57,916 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-25 22:01:57,931 INFO     - Got exception trying to shutdown
+2018-04-25 22:01:57,931 INFO     - Running application
+2018-04-25 22:01:57,934 INFO     - ** Exiting setup_function method **
+2018-04-25 22:01:57,936 INFO     - *** Starting concurrent test calls ***
+2018-04-25 22:01:57,957 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-25 22:01:57,957 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-25 22:01:57,957 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-25 22:01:57,957 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-25 22:01:57,957 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent4'}
+2018-04-25 22:01:57,957 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-25 22:01:57,957 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-25 22:01:57,957 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-25 22:01:57,957 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-25 22:01:57,958 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-25 22:01:58,267 INFO     - ** Running teardown_function method **
+2018-04-25 22:01:58,267 INFO     - ** Exiting teardown_function method **
+2018-04-25 22:01:58,276 INFO     - * Running teardown_module method *
+2018-04-25 22:01:58,276 INFO     - * Exiting teardown_module method *
+2018-04-25 22:02:06,620 INFO     - Platform: darwin
+2018-04-25 22:02:06,620 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-25 22:02:06,621 INFO     - ** Running setup_function method **
+2018-04-25 22:02:06,621 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-25 22:02:06,621 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-25 22:02:06,634 INFO     - Got exception trying to shutdown
+2018-04-25 22:02:06,634 INFO     - Running application
+2018-04-25 22:02:06,637 INFO     - ** Exiting setup_function method **
+2018-04-25 22:02:06,639 INFO     - *** Starting concurrent test calls ***
+2018-04-25 22:02:06,662 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-25 22:02:06,662 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-25 22:02:06,662 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-25 22:02:06,662 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-25 22:02:06,663 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent4'}
+2018-04-25 22:02:06,663 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-25 22:02:06,663 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-25 22:02:06,663 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-25 22:02:06,663 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-25 22:02:06,663 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-25 22:02:11,702 INFO     - Status Code from POST call: 200
+2018-04-25 22:02:11,702 INFO     - Status Code from POST call: 200
+2018-04-25 22:02:11,702 INFO     - Status Code from POST call: 200
+2018-04-25 22:02:11,703 INFO     - Status Code from POST call: 200
+2018-04-25 22:02:11,703 INFO     - Status Code from POST call: 200
+2018-04-25 22:02:11,703 INFO     - Status Code from POST call: 200
+2018-04-25 22:02:11,703 INFO     - Status Code from POST call: 200
+2018-04-25 22:02:11,704 INFO     - Status Code from POST call: 200
+2018-04-25 22:02:11,704 INFO     - Status Code from POST call: 200
+2018-04-25 22:02:11,704 INFO     - Status Code from POST call: 200
+2018-04-25 22:02:11,704 INFO     - POST JSON response: 1
+2018-04-25 22:02:11,705 INFO     - POST JSON response: 3
+2018-04-25 22:02:11,705 INFO     - POST JSON response: 5
+2018-04-25 22:02:11,705 INFO     - POST JSON response: 7
+2018-04-25 22:02:11,705 INFO     - POST JSON response: 4
+2018-04-25 22:02:11,705 INFO     - POST JSON response: 10
+2018-04-25 22:02:11,705 INFO     - POST JSON response: 9
+2018-04-25 22:02:11,706 INFO     - POST JSON response: 8
+2018-04-25 22:02:11,706 INFO     - POST JSON response: 6
+2018-04-25 22:02:11,706 INFO     - POST JSON response: 2
+2018-04-25 22:02:11,706 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:02:11,706 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:02:11,706 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:02:11,707 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:02:11,707 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:02:11,707 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:02:11,707 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:02:11,707 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:02:11,707 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:02:11,707 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:02:11,708 INFO     - POST JSON Request elapsed time (microseconds): 35679
+2018-04-25 22:02:11,708 INFO     - POST JSON Request elapsed time (microseconds): 21840
+2018-04-25 22:02:11,708 INFO     - POST JSON Request elapsed time (microseconds): 25960
+2018-04-25 22:02:11,708 INFO     - POST JSON Request elapsed time (microseconds): 31737
+2018-04-25 22:02:11,708 INFO     - POST JSON Request elapsed time (microseconds): 25047
+2018-04-25 22:02:11,708 INFO     - POST JSON Request elapsed time (microseconds): 14021
+2018-04-25 22:02:11,708 INFO     - POST JSON Request elapsed time (microseconds): 15276
+2018-04-25 22:02:11,709 INFO     - POST JSON Request elapsed time (microseconds): 28507
+2018-04-25 22:02:11,709 INFO     - POST JSON Request elapsed time (microseconds): 30253
+2018-04-25 22:02:11,709 INFO     - POST JSON Request elapsed time (microseconds): 29519
+2018-04-25 22:02:11,709 INFO     - GET REST call concurrent response: 1
+2018-04-25 22:02:11,711 INFO     - GET REST call concurrent response: 7
+2018-04-25 22:02:11,711 INFO     - GET REST call concurrent response: 5
+2018-04-25 22:02:11,711 INFO     - GET REST call concurrent response: 4
+2018-04-25 22:02:11,712 INFO     - GET REST call concurrent response: 2
+2018-04-25 22:02:11,712 INFO     - GET REST call concurrent response: 8
+2018-04-25 22:02:11,712 INFO     - GET REST call concurrent response: 6
+2018-04-25 22:02:11,712 INFO     - GET REST call concurrent response: 3
+2018-04-25 22:02:11,712 INFO     - GET REST call concurrent response: 10
+2018-04-25 22:02:11,712 INFO     - GET REST call concurrent response: 9
+2018-04-25 22:02:11,712 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-25 22:02:11,789 INFO     - ** Running teardown_function method **
+2018-04-25 22:02:11,789 INFO     - ** Exiting teardown_function method **
+2018-04-25 22:02:11,797 INFO     - * Running teardown_module method *
+2018-04-25 22:02:11,797 INFO     - * Exiting teardown_module method *
+2018-04-25 22:02:54,822 INFO     - Platform: darwin
+2018-04-25 22:02:54,822 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-25 22:02:54,822 INFO     - ** Running setup_function method **
+2018-04-25 22:02:54,823 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-25 22:02:54,823 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-25 22:02:54,838 INFO     - Got exception trying to shutdown
+2018-04-25 22:02:54,838 INFO     - Running application
+2018-04-25 22:02:54,841 INFO     - ** Exiting setup_function method **
+2018-04-25 22:02:54,843 INFO     - *** Starting concurrent test calls ***
+2018-04-25 22:02:54,863 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-25 22:02:54,864 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-25 22:02:54,864 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-25 22:02:54,864 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-25 22:02:54,864 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent4'}
+2018-04-25 22:02:54,864 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-25 22:02:54,864 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-25 22:02:54,864 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-25 22:02:54,864 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-25 22:02:54,864 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-25 22:02:55,213 INFO     - ** Running teardown_function method **
+2018-04-25 22:02:55,213 INFO     - ** Exiting teardown_function method **
+2018-04-25 22:02:55,222 INFO     - * Running teardown_module method *
+2018-04-25 22:02:55,222 INFO     - * Exiting teardown_module method *
+2018-04-25 22:03:23,723 INFO     - Platform: darwin
+2018-04-25 22:03:23,723 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-25 22:03:23,723 INFO     - ** Running setup_function method **
+2018-04-25 22:03:23,724 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-25 22:03:23,724 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-25 22:03:23,738 INFO     - Got exception trying to shutdown
+2018-04-25 22:03:23,738 INFO     - Running application
+2018-04-25 22:03:23,741 INFO     - ** Exiting setup_function method **
+2018-04-25 22:03:23,743 INFO     - *** Starting concurrent test calls ***
+2018-04-25 22:03:23,768 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-25 22:03:23,768 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-25 22:03:23,768 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-25 22:03:23,769 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-25 22:03:23,769 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent4'}
+2018-04-25 22:03:23,769 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-25 22:03:23,769 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-25 22:03:23,769 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-25 22:03:23,769 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-25 22:03:23,769 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-25 22:03:28,784 INFO     - Status Code from POST call: 200
+2018-04-25 22:03:28,785 INFO     - POST JSON response: 1
+2018-04-25 22:03:28,785 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:03:28,785 INFO     - POST JSON Request elapsed time (microseconds): 12229
+2018-04-25 22:03:28,786 INFO     - Status Code from POST call: 200
+2018-04-25 22:03:28,786 INFO     - POST JSON response: 2
+2018-04-25 22:03:28,786 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:03:28,786 INFO     - POST JSON Request elapsed time (microseconds): 13071
+2018-04-25 22:03:28,786 INFO     - GET REST call concurrent response: 2
+2018-04-25 22:03:28,787 INFO     - GET REST call concurrent response: 1
+2018-04-25 22:03:28,788 INFO     - Status Code from POST call: 200
+2018-04-25 22:03:28,788 INFO     - POST JSON response: 3
+2018-04-25 22:03:28,788 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:03:28,788 INFO     - POST JSON Request elapsed time (microseconds): 8100
+2018-04-25 22:03:28,802 INFO     - Status Code from POST call: 200
+2018-04-25 22:03:28,802 INFO     - Status Code from POST call: 200
+2018-04-25 22:03:28,803 INFO     - Status Code from POST call: 200
+2018-04-25 22:03:28,803 INFO     - Status Code from POST call: 200
+2018-04-25 22:03:28,803 INFO     - Status Code from POST call: 200
+2018-04-25 22:03:28,803 INFO     - POST JSON response: 8
+2018-04-25 22:03:28,803 INFO     - Status Code from POST call: 200
+2018-04-25 22:03:28,803 INFO     - POST JSON response: 7
+2018-04-25 22:03:28,804 INFO     - POST JSON response: 4
+2018-04-25 22:03:28,804 INFO     - Status Code from POST call: 200
+2018-04-25 22:03:28,804 INFO     - POST JSON response: 6
+2018-04-25 22:03:28,804 INFO     - POST JSON response: 5
+2018-04-25 22:03:28,804 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:03:28,805 INFO     - POST JSON response: 9
+2018-04-25 22:03:28,805 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:03:28,805 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:03:28,805 INFO     - POST JSON response: 10
+2018-04-25 22:03:28,805 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:03:28,806 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:03:28,806 INFO     - POST JSON Request elapsed time (microseconds): 18633
+2018-04-25 22:03:28,806 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:03:28,806 INFO     - POST JSON Request elapsed time (microseconds): 20906
+2018-04-25 22:03:28,806 INFO     - POST JSON Request elapsed time (microseconds): 18314
+2018-04-25 22:03:28,806 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:03:28,807 INFO     - POST JSON Request elapsed time (microseconds): 17606
+2018-04-25 22:03:28,807 INFO     - POST JSON Request elapsed time (microseconds): 18847
+2018-04-25 22:03:28,807 INFO     - POST JSON Request elapsed time (microseconds): 7434
+2018-04-25 22:03:28,808 INFO     - POST JSON Request elapsed time (microseconds): 7840
+2018-04-25 22:03:28,808 INFO     - GET REST call concurrent response: 6
+2018-04-25 22:03:28,809 INFO     - GET REST call concurrent response: 5
+2018-04-25 22:03:28,809 INFO     - GET REST call concurrent response: 3
+2018-04-25 22:03:28,809 INFO     - GET REST call concurrent response: 7
+2018-04-25 22:03:28,809 INFO     - GET REST call concurrent response: 4
+2018-04-25 22:03:28,809 INFO     - GET REST call concurrent response: 8
+2018-04-25 22:03:28,809 INFO     - GET REST call concurrent response: 9
+2018-04-25 22:03:28,810 INFO     - GET REST call concurrent response: 10
+2018-04-25 22:03:28,810 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-25 22:03:28,816 INFO     - GET JSON stats response :{"TotalRequests":10,"AverageTime":204754}
+2018-04-25 22:03:28,887 INFO     - ** Running teardown_function method **
+2018-04-25 22:03:28,887 INFO     - ** Exiting teardown_function method **
+2018-04-25 22:03:28,895 INFO     - * Running teardown_module method *
+2018-04-25 22:03:28,895 INFO     - * Exiting teardown_module method *
+2018-04-25 22:05:20,786 INFO     - Platform: darwin
+2018-04-25 22:05:20,786 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-25 22:05:20,786 INFO     - ** Running setup_function method **
+2018-04-25 22:05:20,787 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-25 22:05:20,787 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-25 22:05:20,804 INFO     - Got exception trying to shutdown
+2018-04-25 22:05:20,804 INFO     - Running application
+2018-04-25 22:05:20,807 INFO     - ** Exiting setup_function method **
+2018-04-25 22:05:20,809 INFO     - *** Starting concurrent test calls ***
+2018-04-25 22:05:20,828 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-25 22:05:20,828 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-25 22:05:20,828 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-25 22:05:20,828 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-25 22:05:20,828 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent4'}
+2018-04-25 22:05:20,828 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-25 22:05:20,828 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-25 22:05:20,828 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-25 22:05:20,828 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-25 22:05:20,828 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-25 22:05:21,141 INFO     - ** Running teardown_function method **
+2018-04-25 22:05:21,141 INFO     - ** Exiting teardown_function method **
+2018-04-25 22:05:21,153 INFO     - * Running teardown_module method *
+2018-04-25 22:05:21,153 INFO     - * Exiting teardown_module method *
+2018-04-25 22:05:39,763 INFO     - Platform: darwin
+2018-04-25 22:05:39,763 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-25 22:05:39,763 INFO     - ** Running setup_function method **
+2018-04-25 22:05:39,763 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-25 22:05:39,763 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-25 22:05:39,778 INFO     - Got exception trying to shutdown
+2018-04-25 22:05:39,778 INFO     - Running application
+2018-04-25 22:05:39,781 INFO     - ** Exiting setup_function method **
+2018-04-25 22:05:39,783 INFO     - *** Starting concurrent test calls ***
+2018-04-25 22:05:39,802 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-25 22:05:39,803 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-25 22:05:39,803 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-25 22:05:39,803 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-25 22:05:39,803 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent4'}
+2018-04-25 22:05:39,803 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-25 22:05:39,803 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-25 22:05:39,803 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-25 22:05:39,803 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-25 22:05:39,803 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-25 22:05:44,823 INFO     - Status Code from POST call: 200
+2018-04-25 22:05:44,824 INFO     - POST JSON response: 3
+2018-04-25 22:05:44,824 INFO     - Status Code from POST call: 200
+2018-04-25 22:05:44,824 INFO     - Status Code from POST call: 200
+2018-04-25 22:05:44,825 INFO     - Status Code from POST call: 200
+2018-04-25 22:05:44,825 INFO     - Status Code from POST call: 200
+2018-04-25 22:05:44,826 INFO     - Status Code from POST call: 200
+2018-04-25 22:05:44,827 INFO     - Status Code from POST call: 200
+2018-04-25 22:05:44,827 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:05:44,827 INFO     - Status Code from POST call: 200
+2018-04-25 22:05:44,827 INFO     - POST JSON response: 1
+2018-04-25 22:05:44,828 INFO     - POST JSON response: 2
+2018-04-25 22:05:44,828 INFO     - POST JSON response: 4
+2018-04-25 22:05:44,828 INFO     - POST JSON response: 5
+2018-04-25 22:05:44,828 INFO     - POST JSON response: 7
+2018-04-25 22:05:44,828 INFO     - POST JSON response: 6
+2018-04-25 22:05:44,828 INFO     - POST JSON Request elapsed time (microseconds): 9503
+2018-04-25 22:05:44,828 INFO     - POST JSON response: 8
+2018-04-25 22:05:44,828 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:05:44,829 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:05:44,829 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:05:44,829 INFO     - Status Code from POST call: 200
+2018-04-25 22:05:44,829 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:05:44,829 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:05:44,830 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:05:44,830 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:05:44,830 INFO     - POST JSON Request elapsed time (microseconds): 17187
+2018-04-25 22:05:44,830 INFO     - POST JSON Request elapsed time (microseconds): 16714
+2018-04-25 22:05:44,830 INFO     - POST JSON Request elapsed time (microseconds): 10532
+2018-04-25 22:05:44,831 INFO     - POST JSON response: 9
+2018-04-25 22:05:44,831 INFO     - POST JSON Request elapsed time (microseconds): 9770
+2018-04-25 22:05:44,831 INFO     - POST JSON Request elapsed time (microseconds): 12192
+2018-04-25 22:05:44,831 INFO     - POST JSON Request elapsed time (microseconds): 11477
+2018-04-25 22:05:44,831 INFO     - POST JSON Request elapsed time (microseconds): 11047
+2018-04-25 22:05:44,831 INFO     - GET REST call concurrent response: 1
+2018-04-25 22:05:44,832 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:05:44,832 INFO     - GET REST call concurrent response: 2
+2018-04-25 22:05:44,833 INFO     - POST JSON Request elapsed time (microseconds): 3620
+2018-04-25 22:05:44,833 INFO     - Status Code from POST call: 200
+2018-04-25 22:05:44,833 INFO     - GET REST call concurrent response: 7
+2018-04-25 22:05:44,833 INFO     - POST JSON response: 10
+2018-04-25 22:05:44,834 INFO     - GET REST call concurrent response: 3
+2018-04-25 22:05:44,834 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:05:44,834 INFO     - GET REST call concurrent response: 4
+2018-04-25 22:05:44,834 INFO     - POST JSON Request elapsed time (microseconds): 6875
+2018-04-25 22:05:44,834 INFO     - GET REST call concurrent response: 6
+2018-04-25 22:05:44,834 INFO     - GET REST call concurrent response: 5
+2018-04-25 22:05:44,834 INFO     - GET REST call concurrent response: 8
+2018-04-25 22:05:44,834 INFO     - GET REST call concurrent response: 10
+2018-04-25 22:05:44,835 INFO     - GET REST call concurrent response: 9
+2018-04-25 22:05:44,835 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-25 22:05:44,843 INFO     - GET JSON stats response :{"TotalRequests":10,"AverageTime":880594}
+2018-04-25 22:05:44,915 INFO     - ** Running teardown_function method **
+2018-04-25 22:05:44,916 INFO     - ** Exiting teardown_function method **
+2018-04-25 22:05:44,923 INFO     - * Running teardown_module method *
+2018-04-25 22:05:44,923 INFO     - * Exiting teardown_module method *
+2018-04-25 22:06:26,161 INFO     - Platform: darwin
+2018-04-25 22:06:26,161 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-25 22:06:26,161 INFO     - ** Running setup_function method **
+2018-04-25 22:06:26,162 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-25 22:06:26,162 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-25 22:06:26,176 INFO     - Got exception trying to shutdown
+2018-04-25 22:06:26,176 INFO     - Running application
+2018-04-25 22:06:26,180 INFO     - ** Exiting setup_function method **
+2018-04-25 22:06:26,182 INFO     - *** Starting concurrent test calls ***
+2018-04-25 22:06:26,203 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent0'}
+2018-04-25 22:06:26,203 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent1'}
+2018-04-25 22:06:26,203 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent2'}
+2018-04-25 22:06:26,203 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent3'}
+2018-04-25 22:06:26,204 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent4'}
+2018-04-25 22:06:26,204 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent5'}
+2018-04-25 22:06:26,204 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent6'}
+2018-04-25 22:06:26,204 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent7'}
+2018-04-25 22:06:26,204 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent8'}
+2018-04-25 22:06:26,204 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'concurrent9'}
+2018-04-25 22:06:31,226 INFO     - Status Code from POST call: 200
+2018-04-25 22:06:31,226 INFO     - Status Code from POST call: 200
+2018-04-25 22:06:31,226 INFO     - Status Code from POST call: 200
+2018-04-25 22:06:31,227 INFO     - Status Code from POST call: 200
+2018-04-25 22:06:31,227 INFO     - POST JSON response: 2
+2018-04-25 22:06:31,227 INFO     - POST JSON response: 3
+2018-04-25 22:06:31,227 INFO     - POST JSON response: 1
+2018-04-25 22:06:31,227 INFO     - POST JSON response: 4
+2018-04-25 22:06:31,227 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:06:31,228 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:06:31,228 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:06:31,228 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:06:31,228 INFO     - POST JSON Request elapsed time (microseconds): 16756
+2018-04-25 22:06:31,228 INFO     - POST JSON Request elapsed time (microseconds): 14860
+2018-04-25 22:06:31,228 INFO     - POST JSON Request elapsed time (microseconds): 16590
+2018-04-25 22:06:31,229 INFO     - POST JSON Request elapsed time (microseconds): 8295
+2018-04-25 22:06:31,230 INFO     - GET REST call concurrent response: 1
+2018-04-25 22:06:31,230 INFO     - GET REST call concurrent response: 3
+2018-04-25 22:06:31,230 INFO     - GET REST call concurrent response: 2
+2018-04-25 22:06:31,234 INFO     - Status Code from POST call: 200
+2018-04-25 22:06:31,234 INFO     - Status Code from POST call: 200
+2018-04-25 22:06:31,235 INFO     - Status Code from POST call: 200
+2018-04-25 22:06:31,236 INFO     - Status Code from POST call: 200
+2018-04-25 22:06:31,236 INFO     - Status Code from POST call: 200
+2018-04-25 22:06:31,236 INFO     - Status Code from POST call: 200
+2018-04-25 22:06:31,236 INFO     - POST JSON response: 5
+2018-04-25 22:06:31,236 INFO     - POST JSON response: 7
+2018-04-25 22:06:31,237 INFO     - POST JSON response: 8
+2018-04-25 22:06:31,237 INFO     - POST JSON response: 9
+2018-04-25 22:06:31,237 INFO     - POST JSON response: 10
+2018-04-25 22:06:31,237 INFO     - POST JSON response: 6
+2018-04-25 22:06:31,237 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:06:31,237 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:06:31,237 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:06:31,237 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:06:31,237 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:06:31,238 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:06:31,238 INFO     - POST JSON Request elapsed time (microseconds): 15311
+2018-04-25 22:06:31,238 INFO     - POST JSON Request elapsed time (microseconds): 17324
+2018-04-25 22:06:31,238 INFO     - POST JSON Request elapsed time (microseconds): 15745
+2018-04-25 22:06:31,238 INFO     - POST JSON Request elapsed time (microseconds): 15671
+2018-04-25 22:06:31,239 INFO     - POST JSON Request elapsed time (microseconds): 18154
+2018-04-25 22:06:31,239 INFO     - POST JSON Request elapsed time (microseconds): 12879
+2018-04-25 22:06:31,240 INFO     - GET REST call concurrent response: 6
+2018-04-25 22:06:31,240 INFO     - GET REST call concurrent response: 9
+2018-04-25 22:06:31,240 INFO     - GET REST call concurrent response: 8
+2018-04-25 22:06:31,240 INFO     - GET REST call concurrent response: 10
+2018-04-25 22:06:31,241 INFO     - GET REST call concurrent response: 4
+2018-04-25 22:06:31,241 INFO     - GET REST call concurrent response: 7
+2018-04-25 22:06:31,241 INFO     - GET REST call concurrent response: 5
+2018-04-25 22:06:31,241 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-25 22:06:31,248 INFO     - GET JSON stats response :{"TotalRequests":10,"AverageTime":179412}
+2018-04-25 22:06:31,248 INFO     - GET JSON stats response :{"TotalRequests":10,"AverageTime":179412}
+2018-04-25 22:06:31,248 INFO     - *** Finished concurrent test calls ***
+2018-04-25 22:06:31,249 INFO     - ** Running teardown_function method **
+2018-04-25 22:06:31,249 INFO     - ** Exiting teardown_function method **
+2018-04-25 22:06:31,257 INFO     - * Running teardown_module method *
+2018-04-25 22:06:31,258 INFO     - * Exiting teardown_module method *
+2018-04-25 22:14:55,142 INFO     - Platform: darwin
+2018-04-25 22:14:55,143 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-25 22:14:55,143 INFO     - ** Running setup_function method **
+2018-04-25 22:14:55,143 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-25 22:14:55,143 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-25 22:14:55,157 INFO     - Got exception trying to shutdown
+2018-04-25 22:14:55,157 INFO     - Running application
+2018-04-25 22:14:55,160 INFO     - ** Exiting setup_function method **
+2018-04-25 22:14:55,162 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'angrymonkey'}
+2018-04-25 22:14:55,434 INFO     - ** Running teardown_function method **
+2018-04-25 22:14:55,434 INFO     - ** Exiting teardown_function method **
+2018-04-25 22:14:55,435 INFO     - * Running teardown_module method *
+2018-04-25 22:14:55,436 INFO     - * Exiting teardown_module method *
+2018-04-25 22:15:03,717 INFO     - Platform: darwin
+2018-04-25 22:15:03,717 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-25 22:15:03,717 INFO     - ** Running setup_function method **
+2018-04-25 22:15:03,717 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-25 22:15:03,717 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-25 22:15:03,742 INFO     - Got exception trying to shutdown
+2018-04-25 22:15:03,742 INFO     - Running application
+2018-04-25 22:15:03,745 INFO     - ** Exiting setup_function method **
+2018-04-25 22:15:03,747 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'angrymonkey'}
+2018-04-25 22:15:08,763 INFO     - Status Code from POST call: 200
+2018-04-25 22:15:08,763 INFO     - POST JSON response: 1
+2018-04-25 22:15:08,763 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:15:08,763 INFO     - POST JSON Request elapsed time (microseconds): 12519
+2018-04-25 22:15:08,839 INFO     - ** Running teardown_function method **
+2018-04-25 22:15:08,839 INFO     - ** Exiting teardown_function method **
+2018-04-25 22:15:08,840 INFO     - * Running teardown_module method *
+2018-04-25 22:15:08,840 INFO     - * Exiting teardown_module method *
+2018-04-25 22:16:48,836 INFO     - Platform: darwin
+2018-04-25 22:16:48,836 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-25 22:16:48,836 INFO     - ** Running setup_function method **
+2018-04-25 22:16:48,836 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-25 22:16:48,836 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-25 22:16:48,848 INFO     - Got exception trying to shutdown
+2018-04-25 22:16:48,848 INFO     - Running application
+2018-04-25 22:16:48,851 INFO     - ** Exiting setup_function method **
+2018-04-25 22:16:48,853 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'angrymonkey'}
+2018-04-25 22:16:53,867 INFO     - Status Code from POST call: 200
+2018-04-25 22:16:53,868 INFO     - POST JSON response: 1
+2018-04-25 22:16:53,868 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:16:53,868 INFO     - POST JSON Request elapsed time (microseconds): 10670
+2018-04-25 22:16:53,942 INFO     - ** Running teardown_function method **
+2018-04-25 22:16:53,942 INFO     - ** Exiting teardown_function method **
+2018-04-25 22:16:53,943 INFO     - * Running teardown_module method *
+2018-04-25 22:16:53,943 INFO     - * Exiting teardown_module method *
+2018-04-25 22:45:29,248 INFO     - Platform: darwin
+2018-04-25 22:45:29,248 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-25 22:45:29,248 INFO     - ** Running setup_function method **
+2018-04-25 22:45:29,248 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-25 22:45:29,248 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-25 22:45:29,267 INFO     - Got exception trying to shutdown
+2018-04-25 22:45:29,267 INFO     - Running application
+2018-04-25 22:45:29,270 INFO     - ** Exiting setup_function method **
+2018-04-25 22:45:29,273 INFO     - *** Starting sequential test calls ***
+2018-04-25 22:45:29,273 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'password0'}
+2018-04-25 22:45:29,540 INFO     - ** Running teardown_function method **
+2018-04-25 22:45:29,541 INFO     - ** Exiting teardown_function method **
+2018-04-25 22:45:29,541 INFO     - * Running teardown_module method *
+2018-04-25 22:45:29,541 INFO     - * Exiting teardown_module method *
+2018-04-25 22:45:38,652 INFO     - Platform: darwin
+2018-04-25 22:45:38,652 INFO     - * Exiting setup_module method in test_post_password... *
+2018-04-25 22:45:38,652 INFO     - ** Running setup_function method **
+2018-04-25 22:45:38,652 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-25 22:45:38,652 INFO     - POST URL call and data parameter: http://localhost:8088/hash/, shutdown
+2018-04-25 22:45:38,680 INFO     - Got exception trying to shutdown
+2018-04-25 22:45:38,680 INFO     - Running application
+2018-04-25 22:45:38,683 INFO     - ** Exiting setup_function method **
+2018-04-25 22:45:38,685 INFO     - *** Starting sequential test calls ***
+2018-04-25 22:45:38,686 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'password0'}
+2018-04-25 22:45:43,702 INFO     - Status Code from POST call: 200
+2018-04-25 22:45:43,702 INFO     - POST JSON response: 1
+2018-04-25 22:45:43,702 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:45:43,702 INFO     - POST JSON Request elapsed time (microseconds): 12979
+2018-04-25 22:45:43,702 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'password1'}
+2018-04-25 22:45:48,710 INFO     - Status Code from POST call: 200
+2018-04-25 22:45:48,711 INFO     - POST JSON response: 2
+2018-04-25 22:45:48,711 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:45:48,711 INFO     - POST JSON Request elapsed time (microseconds): 5227
+2018-04-25 22:45:48,711 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'password2'}
+2018-04-25 22:45:53,720 INFO     - Status Code from POST call: 200
+2018-04-25 22:45:53,720 INFO     - POST JSON response: 3
+2018-04-25 22:45:53,720 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:45:53,720 INFO     - POST JSON Request elapsed time (microseconds): 5694
+2018-04-25 22:45:53,720 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'password3'}
+2018-04-25 22:45:58,727 INFO     - Status Code from POST call: 200
+2018-04-25 22:45:58,728 INFO     - POST JSON response: 4
+2018-04-25 22:45:58,728 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:45:58,728 INFO     - POST JSON Request elapsed time (microseconds): 4582
+2018-04-25 22:45:58,728 INFO     - POST URL hash call and json: http://localhost:8088/hash, {'password': 'password4'}
+2018-04-25 22:46:03,734 INFO     - Status Code from POST call: 200
+2018-04-25 22:46:03,734 INFO     - POST JSON response: 5
+2018-04-25 22:46:03,734 INFO     - POST JSON Request elapsed time: 5
+2018-04-25 22:46:03,735 INFO     - POST JSON Request elapsed time (microseconds): 4166
+2018-04-25 22:46:03,735 INFO     - GET URL stats call: http://localhost:8088/stats
+2018-04-25 22:46:03,742 INFO     - GET JSON stats response :{"TotalRequests":5,"AverageTime":449123}
+2018-04-25 22:46:03,742 INFO     - GET JSON stats response :{"TotalRequests":5,"AverageTime":449123}
+2018-04-25 22:46:03,742 INFO     - *** Finished sequential test calls ***
+2018-04-25 22:46:03,743 INFO     - ** Running teardown_function method **
+2018-04-25 22:46:03,743 INFO     - ** Exiting teardown_function method **
+2018-04-25 22:46:03,743 INFO     - * Running teardown_module method *
+2018-04-25 22:46:03,743 INFO     - * Exiting teardown_module method *
