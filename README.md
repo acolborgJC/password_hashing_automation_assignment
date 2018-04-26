@@ -1,6 +1,6 @@
 # Password Hashing Automation Assignment
 
-###Assignment for JumpCloud
+### Assignment for JumpCloud
 
 ## Purpose
 
