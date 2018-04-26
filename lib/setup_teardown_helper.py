@@ -32,29 +32,40 @@ def teardown_module_helper(qualifier):
     logging.info("* Exiting teardown_module method in " + qualifier + " *")
 
 
-def setup_function_helper():
-    logging.info("** Running setup_function method **")
-    os.environ["PORT"] = get_property_value("port")
-    logging.info("Current working directory: " + os.getcwd())
+def get_os_extension():
     os_extension_name = ""
     if "darwin" == sys.platform:
         os_extension_name = "darwin"
     elif "win32" == sys.platform:
         os_extension_name = "_win.exe"
+    return os_extension_name
 
-    try:
-        testinghelper.post_request_shutdown_helper_no_validation()
-    except:
-        logging.info("Got exception trying to shutdown")
 
+def startup_call(os_extension_name):
     try:
         logging.info("Running application")
         hash_app_process = subprocess.Popen([".//resources//broken-hashserve_" + os_extension_name, ""])
-        logging.info("** Exiting setup_function method **")
+        logging.info("Launching application success")
         return hash_app_process
     except subprocess.CalledProcessError:
         logging.info("There was an error starting the process")
-        logging.info("** Exiting setup_function method **")
+        return -1
+
+
+def setup_function_helper():
+    logging.info("** Running setup_function method **")
+    os.environ["PORT"] = get_property_value("port")
+    logging.info("Current working directory: " + os.getcwd())
+    os_extension_name = get_os_extension()
+
+    #try:
+    #    testinghelper.post_request_shutdown_helper_no_validation()
+    #except:
+    #    logging.info("Got exception trying to shutdown")
+
+    hash_app_process = startup_call(os_extension_name)
+    logging.info("** Exiting setup_function method **")
+    return hash_app_process
 
 
 def teardown_function_helper(hash_app_process):
@@ -64,6 +75,7 @@ def teardown_function_helper(hash_app_process):
     except subprocess.CalledProcessError:
         logging.info("Couldn't stop process")
     logging.info("** Exiting teardown_function method **")
+
 
 def get_property_value(requested_key_value):
     logging.info("Opening yaml file")

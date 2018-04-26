@@ -16,8 +16,6 @@ Passed tests:
 
 Tests that didn’t pass:
 
-Test encoded SHA512 should be 88 characters long
-
 bug #1 XPOST doesn’t return the identifier immediately
 
 bug #2 XPOST you can use blank password. Shouldn’t be allowed although SHA512
@@ -42,3 +40,5 @@ bug#10 2018/04/25 00:05:58 Shutdown signal recieved
 2018/04/25 00:05:58 Shutting down
 
 bug#11 AverageTime seems off based off my elapsed time tests
+
+bug#12 shutdown request doesn't return message in JSON format. only app records message to STDOUT
