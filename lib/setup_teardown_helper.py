@@ -58,11 +58,6 @@ def setup_function_helper():
     logging.info("Current working directory: " + os.getcwd())
     os_extension_name = get_os_extension()
 
-    #try:
-    #    testinghelper.post_request_shutdown_helper_no_validation()
-    #except:
-    #    logging.info("Got exception trying to shutdown")
-
     hash_app_process = startup_call(os_extension_name)
     logging.info("** Exiting setup_function method **")
     return hash_app_process
