@@ -7255,3 +7255,43 @@
 2018-04-26 23:40:31,111 INFO     - * Exiting teardown_module method in test_post_startup_shutdown... *
 2018-04-26 23:40:31,111 INFO     - * Exiting teardown_module method in test_post_startup_shutdown... *
 2018-04-26 23:40:31,111 INFO     - * Exiting teardown_module method in test_post_startup_shutdown... *
+2018-04-27 13:08:54,760 INFO     - Platform: darwin
+2018-04-27 13:08:54,761 INFO     - * Exiting setup_module method in test_get_password_base64_encoded... *
+2018-04-27 13:08:54,761 INFO     - ** Running setup_function method **
+2018-04-27 13:08:54,761 INFO     - Opening yaml file
+2018-04-27 13:08:54,763 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-27 13:08:54,763 INFO     - Running application
+2018-04-27 13:08:54,766 INFO     - Launching application success
+2018-04-27 13:08:54,767 INFO     - ** Exiting setup_function method **
+2018-04-27 13:08:54,768 INFO     - *** Starting get base64 encoded hash call with ascii character ***
+2018-04-27 13:08:54,769 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'testpassword@1234'}
+2018-04-27 13:08:55,059 INFO     - ** Running teardown_function method **
+2018-04-27 13:08:55,059 INFO     - ** Exiting teardown_function method **
+2018-04-27 13:08:55,059 INFO     - * Running teardown_module method in test_get_password_base64_encoded... *
+2018-04-27 13:08:55,059 INFO     - * Exiting teardown_module method in test_get_password_base64_encoded... *
+2018-04-27 13:08:58,147 INFO     - Platform: darwin
+2018-04-27 13:08:58,148 INFO     - * Exiting setup_module method in test_get_password_base64_encoded... *
+2018-04-27 13:08:58,148 INFO     - ** Running setup_function method **
+2018-04-27 13:08:58,148 INFO     - Opening yaml file
+2018-04-27 13:08:58,149 INFO     - Current working directory: /Users/andresmfernandez/GIT/PycharmProjects/password_hashing_automation_assignment
+2018-04-27 13:08:58,149 INFO     - Running application
+2018-04-27 13:08:58,152 INFO     - Launching application success
+2018-04-27 13:08:58,153 INFO     - ** Exiting setup_function method **
+2018-04-27 13:08:58,155 INFO     - *** Starting get base64 encoded hash call with ascii character ***
+2018-04-27 13:08:58,156 INFO     - POST REST hash call and json: http://localhost:8088/hash, {'password': 'testpassword@1234'}
+2018-04-27 13:09:03,204 INFO     - Status Code from POST REST call from query parameter: 200 ,{'password': 'testpassword@1234'}
+2018-04-27 13:09:03,204 INFO     - POST REST int response: 1
+2018-04-27 13:09:03,205 INFO     - POST REST Request elapsed time: 5
+2018-04-27 13:09:03,205 INFO     - POST REST Request elapsed time (microseconds): 30219
+2018-04-27 13:09:03,205 INFO     - POST REST response code: 200
+2018-04-27 13:09:03,205 INFO     - GET REST base64 call and hash integer parameter: http://localhost:8088/hash/a, a
+2018-04-27 13:09:03,217 INFO     - Status Code from GET base64 call: 400
+2018-04-27 13:09:03,217 INFO     - GET REST base64 response: strconv.Atoi: parsing "a": invalid syntax
+
+2018-04-27 13:09:03,217 INFO     - GET REST base64 total elapsed time (seconds): 0
+2018-04-27 13:09:03,217 INFO     - GET REST base64 total elapsed time (microseconds): 8047
+2018-04-27 13:09:03,217 INFO     - *** Finished get base64 encoded hash call with ascii character ***
+2018-04-27 13:09:03,218 INFO     - ** Running teardown_function method **
+2018-04-27 13:09:03,218 INFO     - ** Exiting teardown_function method **
+2018-04-27 13:09:03,219 INFO     - * Running teardown_module method in test_get_password_base64_encoded... *
+2018-04-27 13:09:03,219 INFO     - * Exiting teardown_module method in test_get_password_base64_encoded... *

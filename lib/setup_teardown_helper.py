@@ -11,6 +11,7 @@ import sys
 import logging
 import yaml
 import subprocess
+import time
 
 script_dir = os.path.dirname(__file__)
 
@@ -48,6 +49,9 @@ def startup_call(os_extension_name):
         logging.info("Running application")
         hash_app_process = subprocess.Popen([".//resources//broken-hashserve_" + os_extension_name, ""])
         logging.info("Launching application success")
+        #TODO add polling since sleep is rather rudimentary
+        #If I dont' have sleep I get connection refused
+        time.sleep(10)
         return hash_app_process
     except subprocess.CalledProcessError:
         logging.info("There was an error starting the process")

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04545652-b2ba-4e78-9715-8f9b0c491109" name="Default" comment="" />
+    <list default="true" id="04545652-b2ba-4e78-9715-8f9b0c491109" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/test-hash-app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test-hash-app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/test_running_hashing_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/test_running_hashing_app.py.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +22,8 @@
       <file leaf-file-name="test_post_password_hashing_request.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/automation_tests/test_post_password_hashing_request.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+            <state relative-caret-position="273">
+              <caret line="71" column="54" lean-forward="true" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="54" />
               <folding>
                 <element signature="e#88#98#0" expanded="true" />
               </folding>
@@ -39,8 +43,8 @@
       <file leaf-file-name="test_get_stats_request.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/automation_tests/test_get_stats_request.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+            <state relative-caret-position="155">
+              <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="26" />
               <folding>
                 <element signature="e#88#98#0" expanded="true" />
               </folding>
@@ -51,8 +55,8 @@
       <file leaf-file-name="test_get_password_base64_encoded_request.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/automation_tests/test_get_password_base64_encoded_request.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="73" column="74" selection-start-line="73" selection-start-column="74" selection-end-line="73" selection-end-column="74" />
+            <state relative-caret-position="49">
+              <caret line="43" selection-start-line="43" selection-end-line="43" selection-end-column="60" />
               <folding>
                 <element signature="e#88#98#0" expanded="true" />
               </folding>
@@ -102,26 +106,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testlogging.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/testlogging.py">
+      <file leaf-file-name="setup_teardown_helper.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/setup_teardown_helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+            <state relative-caret-position="334">
+              <caret line="49" column="53" lean-forward="true" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
               <folding>
-                <element signature="e#357#371#0" expanded="true" />
+                <element signature="e#88#97#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setup_teardown_helper.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/setup_teardown_helper.py">
+      <file leaf-file-name="test_running_hashing_app.py.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sandbox/test_running_hashing_app.py.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-              <folding>
-                <element signature="e#88#97#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -165,11 +166,12 @@
         <option value="$PROJECT_DIR$/automation_tests/test_get_stats_request.py" />
         <option value="$PROJECT_DIR$/automation_tests/test_post_startup_shutdown_request.py" />
         <option value="$PROJECT_DIR$/automation_tests/test_post_password_hashing_request.py" />
-        <option value="$PROJECT_DIR$/lib/setup_teardown_helper.py" />
         <option value="$PROJECT_DIR$/lib/testinghelper.py" />
         <option value="$PROJECT_DIR$/automation_tests/test_get_password_base64_encoded_request.py" />
         <option value="$PROJECT_DIR$/test_cases/listed_test_cases.txt" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/lib/setup_teardown_helper.py" />
+        <option value="$PROJECT_DIR$/sandbox/test_running_hashing_app.py.txt" />
       </list>
     </option>
   </component>
@@ -183,8 +185,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1519" />
-    <option name="y" value="35" />
+    <option name="x" value="1697" />
+    <option name="y" value="83" />
     <option name="width" value="1578" />
     <option name="height" value="959" />
   </component>
@@ -300,7 +302,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sandbox/test_running_hashing_app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sandbox/test_running_hashing_app.py.txt" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -331,7 +333,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1519" y="35" width="1578" height="959" extended-state="0" />
+    <frame x="1561" y="40" width="1578" height="959" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -340,8 +342,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286385" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.21577726" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29752603" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.37935033" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2311198" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930845" />
@@ -384,7 +386,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox/test_running_hashing_app.py">
+    <entry file="file://$PROJECT_DIR$/sandbox/test_running_hashing_app.py.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="32" column="101" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="101" />
@@ -438,7 +440,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox/test_running_hashing_app.py">
+    <entry file="file://$PROJECT_DIR$/sandbox/test_running_hashing_app.py.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="32" column="101" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="101" />
@@ -492,7 +494,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox/test_running_hashing_app.py">
+    <entry file="file://$PROJECT_DIR$/sandbox/test_running_hashing_app.py.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="32" column="101" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="101" />
@@ -546,7 +548,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox/test_running_hashing_app.py">
+    <entry file="file://$PROJECT_DIR$/sandbox/test_running_hashing_app.py.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="32" column="101" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="101" />
@@ -594,7 +596,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox/test_running_hashing_app.py">
+    <entry file="file://$PROJECT_DIR$/sandbox/test_running_hashing_app.py.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
@@ -649,7 +651,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox/test_running_hashing_app.py">
+    <entry file="file://$PROJECT_DIR$/sandbox/test_running_hashing_app.py.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
@@ -666,7 +668,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox/test_running_hashing_app.py">
+    <entry file="file://$PROJECT_DIR$/sandbox/test_running_hashing_app.py.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
@@ -677,13 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox/test_running_hashing_app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="32" column="101" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="101" />
         </state>
       </provider>
     </entry>
@@ -735,30 +730,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automation_tests/test_get_password_base64_encoded_request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="73" column="74" selection-start-line="73" selection-start-column="74" selection-end-line="73" selection-end-column="74" />
-          <folding>
-            <element signature="e#88#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logs/test-hash-app.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider">
         <state relative-caret-position="-56098">
           <caret line="2242" column="69" lean-forward="true" selection-start-line="2242" selection-start-column="69" selection-end-line="2242" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation_tests/test_get_stats_request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
-          <folding>
-            <element signature="e#88#98#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,8 +756,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/automation_tests/test_post_password_hashing_request.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+        <state relative-caret-position="273">
+          <caret line="71" column="54" lean-forward="true" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="54" />
+          <folding>
+            <element signature="e#88#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation_tests/test_get_password_base64_encoded_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="43" selection-start-line="43" selection-end-line="43" selection-end-column="60" />
+          <folding>
+            <element signature="e#88#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation_tests/test_get_stats_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="26" />
           <folding>
             <element signature="e#88#98#0" expanded="true" />
           </folding>
@@ -791,11 +786,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/setup_teardown_helper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        <state relative-caret-position="334">
+          <caret line="49" column="53" lean-forward="true" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
           <folding>
             <element signature="e#88#97#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandbox/test_running_hashing_app.py.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>

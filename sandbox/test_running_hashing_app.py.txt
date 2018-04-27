@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+
+[NOTE: Change back to .py if you want to use. On CentOS pytest seems to grab it regardless ]
+
 """
 Created on April 20th, 2018
 @author: andres.fernandez
