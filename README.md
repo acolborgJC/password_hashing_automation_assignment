@@ -13,16 +13,17 @@ I could test encompassing two POST and two GET requests.
 
 This was developed using Python 3.6.5
 
-Highligted modules that were used:
+Modules that need to be installed via pip:
 
 * pytest
 * requests 
-* hashlib
-* codecs
+* pyyaml
+* junit_xml
 
 PyCharm 2018.1 was used to develop the automation suite
 
-Automation was tested and proved on macOS High Sierra
+Automation was tested and proved on macOS High Sierra and
+CentOS 7.4 
 
 Automated was tested on Windows 2010 but still attempting to diagnose
 module issues
@@ -58,12 +59,12 @@ This should be a good start to validate a smaller piece of the automation
 
 Most Basic Test (Happy Path waiting on identifier)
 
-* pytest automation_tests/ -k test_post_single_
+* pytest -k test_post_single_
 password_hash_call_with_long_wait
 
-Most Basic Test (Waiting less than a second)
+Most Basic Test (Waiting less than a second. Caused failure)
 
-* pytest automation_tests/ -k test_post_single_
+* pytest -k test_post_single_
 password_hash_call_with_immediate_job_identifier
 
 More Complex Tests
@@ -90,7 +91,7 @@ As of 4/26/18 there are 16 test cases that are automated
 
 ## Latest Test Results
 
-6 failed, 9 passed, 2 skipped in 90.73 seconds
+5 failed, 10 passed, 2 skipped in 120.89 seconds
 
 ## Todos
 
