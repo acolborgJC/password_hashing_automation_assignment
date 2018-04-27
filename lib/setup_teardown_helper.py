@@ -37,9 +37,9 @@ def get_os_extension():
     if "darwin" == sys.platform:
         os_extension_name = "darwin"
     elif "win32" == sys.platform:
-        os_extension_name = "_win.exe"
+        os_extension_name = "win.exe"
     elif "linux" == sys.platform:
-        os_extension_name = "_linux"
+        os_extension_name = "linux"
     return os_extension_name
 
 
