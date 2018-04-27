@@ -16,29 +16,35 @@ Passed tests:
 
 Tests that didn’t pass:
 
-bug #1 XPOST doesn’t return the identifier immediately
+bug #1 XPOST doesn’t return the identifier immediately (automated)
 
-bug #2 XPOST you can use blank password. Shouldn’t be allowed although SHA512
+bug #2 XPOST you can use blank password. Shouldn’t be allowed although SHA512 (automated)
 
-bug #3 XPOST I can use ‘{“blah”:””}’ - Needs to be format of password
+bug #3 XPOST I can use ‘{“blah”:””}’ - Needs to be format of password (automated)
 
-bug#4 XPOST doesn’t gracefully shutdown and serve the request
+bug#4 XPOST doesn’t gracefully shutdown and serve the request. Need to revisit since I tried this with kill -2
 
-bug#5 XPOST no maintaining of current keys. shutdown removes all stored entries
+bug#5 XPOST no maintaining of current keys. shutdown removes all stored entries (not automated)
 
 bug#6 XPOST/GET No salt used for sha512 base64 encoded (SHA512 + base64 encoding)
 
 	could be cracked with dictionary call possibly (should preface pword with a string)
 
+	(not automated)
+
 bug#7 No authentication/authorization step when calling the REST endpoints (totally open)
 
-bug#8 JSON response not returned from GET request, just a numbe
+    (not automated)
 
-bug#9 What’s the point of shutdown endpoint when nothing is saved?
+bug#8 JSON response not returned from GET request, just a number (automated, but I allow for non JSON now)
 
-bug#10 2018/04/25 00:05:58 Shutdown signal recieved
+bug#9 What’s the point of shutdown endpoint when nothing is saved? (not automated. dupe from above)
+
+bug#10 2018/04/25 00:05:58 Shutdown signal recieved (misspelling, gave this allowance)
 2018/04/25 00:05:58 Shutting down
 
-bug#11 AverageTime seems off based off my elapsed time tests
+bug#11 AverageTime seems off based off my elapsed time tests (nothing in spec that I could see)
 
-bug#12 shutdown request doesn't return message in JSON format. only app records message to STDOUT
+bug#12 shutdown request doesn't return message in JSON format. only app records message to STDOUT (not in spec)
+
+    (not automated but check is easily added)
