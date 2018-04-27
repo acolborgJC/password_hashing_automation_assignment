@@ -67,6 +67,17 @@ def test_get_password_hash_with_invalid_number():
     assert ("Hash not found" in str(response))
     logging.info("*** Finished get base64 encoded hash call with invalid number ***")
 
+def test_get_password_hash_with_ascii_character():
+    logging.info("*** Starting get base64 encoded hash call with ascii character ***")
+    password_argument = "testpassword@1234"
+    json_value = {"password": password_argument}
+    response = testinghelper.post_request_hash_helper(json_value, 200, 10)
+    response = testinghelper.get_request_hash_helper('a', 400)
+    assert ("strconv.Atoi:" in str(response))
+    assert ("invalid syntax" in str(response))
+    logging.info("*** Finished get base64 encoded hash call with ascii character ***")
+
+
 
 def main():
     logging.info("In test_get_password_base64_encoded_request main function")

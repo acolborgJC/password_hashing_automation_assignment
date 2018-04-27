@@ -48,3 +48,12 @@ bug#11 AverageTime seems off based off my elapsed time tests (nothing in spec th
 bug#12 shutdown request doesn't return message in JSON format. only app records message to STDOUT (not in spec)
 
     (not automated but check is easily added)
+
+bug#13 curl -v -H "application/json" http://localhost:8088/hash/!@#$%
+-bash: !@#$%: event not found
+
+    With ascii > invalid syntax
+
+    With non-existent number: Hash not found
+
+    Not in spec so not sure why there would be three different error messages. Should be consistent?

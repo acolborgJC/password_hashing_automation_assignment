@@ -90,7 +90,7 @@ As of 4/26/18 there are 16 test cases that are automated
 
 ## Latest Test Results
 
-5 failed, 9 passed, 2 skipped in 85.74 seconds 
+6 failed, 9 passed, 2 skipped in 90.73 seconds
 
 ## Todos
 

@@ -75,8 +75,6 @@ def post_request_shutdown_helper():
     logging.info("POST URL call for shutdown: " + url)
     r = requests.post(url, data)
     assert (r.status_code == 200)
-    #assert ("Shutdown signal recieved" in r.text)
-    #assert ("Shutting down" in r.text)
     return r.text
 
 

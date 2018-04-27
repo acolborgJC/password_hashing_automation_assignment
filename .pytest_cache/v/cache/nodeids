@@ -1,6 +1,7 @@
 [
   "automation_tests/test_get_password_base64_encoded_request.py::test_get_password_hash_call",
   "automation_tests/test_get_password_base64_encoded_request.py::test_get_password_hash_with_invalid_number",
+  "automation_tests/test_get_password_base64_encoded_request.py::test_get_password_hash_with_ascii_character",
   "automation_tests/test_get_stats_request.py::test_get_stats_no_data",
   "automation_tests/test_get_stats_request.py::test_get_stats_one_request",
   "automation_tests/test_post_password_hashing_request.py::test_post_concurrent_password_hash_calls",
